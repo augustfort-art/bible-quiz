@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Testimony — Old Testament Quiz</title>
+<meta name="theme-color" content="#10162C">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Testimony">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Archivo:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ground:#10162C;
+  --ground-2:#171F3C;
+  --raise:#1E2950;
+  --tekhelet:#2E4E92;
+  --linen:#EFE9DC;
+  --linen-dim:#A9A493;
+  --gold:#C8A02E;
+  --gold-soft:#E0BE5B;
+  --scarlet:#C0453F;
+  --argaman:#6A4384;
+  --hair:rgba(200,160,46,.22);
+  --sp:clamp(18px,5vw,26px);
+  --r:3px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--ground);
+  color:var(--linen);
+  font-family:'Archivo',system-ui,sans-serif;
+  font-size:16px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  min-height:100dvh;
+  overflow-x:hidden;
+}
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;
+  background:
+    radial-gradient(120% 70% at 50% -10%, rgba(46,78,146,.38), transparent 60%),
+    radial-gradient(80% 50% at 50% 110%, rgba(106,67,132,.20), transparent 65%);
+}
+.wrap{position:relative;z-index:1;max-width:640px;margin:0 auto;padding:var(--sp);
+  padding-top:max(var(--sp),env(safe-area-inset-top));
+  padding-bottom:calc(var(--sp) + env(safe-area-inset-bottom) + 8px);}
+
+/* ── type ── */
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:600;margin:0;line-height:1.15;
+  font-variation-settings:'opsz' 96;}
+.eyebrow{font-size:.66rem;letter-spacing:.22em;text-transform:uppercase;
+  color:var(--gold);font-weight:600;margin:0 0 10px}
+.eyebrow.mute{color:var(--linen-dim)}
+
+/* ── masthead ── */
+.mast{padding:22px 0 26px;border-bottom:1px solid var(--hair);margin-bottom:26px}
+.mast h1{font-size:clamp(2.1rem,10vw,3rem);letter-spacing:-.02em}
+.mast h1 em{font-style:italic;color:var(--gold-soft);font-weight:400}
+.mast p{margin:12px 0 0;color:var(--linen-dim);font-size:.9rem;max-width:34ch}
+
+/* ── buttons / cards ── */
+.card{
+  display:block;width:100%;text-align:left;cursor:pointer;
+  background:var(--ground-2);border:1px solid rgba(239,233,220,.09);
+  border-left:2px solid var(--tekhelet);
+  border-radius:var(--r);color:inherit;font:inherit;
+  padding:16px 18px;margin-bottom:10px;
+  transition:border-color .18s,background .18s,transform .1s;
+}
+.card:hover,.card:focus-visible{background:var(--raise);border-left-color:var(--gold)}
+.card:active{transform:translateY(1px)}
+.card .t{font-family:'Fraunces',serif;font-size:1.16rem;font-weight:600;display:block}
+.card .s{display:block;color:var(--linen-dim);font-size:.82rem;margin-top:4px}
+.card[disabled]{opacity:.34;pointer-events:none}
+
+.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(88px,1fr));gap:9px;margin-bottom:8px}
+.chip{
+  background:var(--ground-2);border:1px solid rgba(239,233,220,.12);border-radius:var(--r);
+  color:var(--linen);font:inherit;font-size:.9rem;font-weight:500;
+  padding:14px 8px;text-align:center;cursor:pointer;
+  transition:background .18s,border-color .18s,color .18s;
+}
+.chip:hover,.chip:focus-visible{border-color:var(--gold);background:var(--raise)}
+.chip[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:#1A1405;font-weight:700}
+.chip[disabled]{opacity:.28;pointer-events:none}
+.chip .n{display:block;font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;
+  opacity:.6;margin-top:3px;font-weight:600}
+
+.go{
+  width:100%;margin-top:20px;padding:17px;cursor:pointer;
+  background:var(--gold);color:#1A1405;border:none;border-radius:var(--r);
+  font-family:'Fraunces',serif;font-size:1.1rem;font-weight:700;letter-spacing:.01em;
+  transition:background .18s,transform .1s;
+}
+.go:hover,.go:focus-visible{background:var(--gold-soft)}
+.go:active{transform:translateY(1px)}
+.go[disabled]{opacity:.3;pointer-events:none}
+
+.back{background:none;border:none;color:var(--linen-dim);font:inherit;font-size:.82rem;
+  cursor:pointer;padding:8px 0;margin-bottom:14px;letter-spacing:.04em}
+.back:hover,.back:focus-visible{color:var(--gold)}
+
+/* ── section headers in book list ── */
+.sect{margin:26px 0 11px;display:flex;align-items:baseline;gap:12px}
+.sect h3{font-size:.95rem;letter-spacing:.02em}
+.sect .line{flex:1;height:1px;background:var(--hair)}
+.sect .ct{font-size:.68rem;color:var(--linen-dim);letter-spacing:.1em}
+
+/* ── quiz ── */
+.bar{height:2px;background:rgba(239,233,220,.1);margin-bottom:6px;border-radius:2px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--gold);width:0;transition:width .35s ease}
+.meta{display:flex;justify-content:space-between;font-size:.68rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--linen-dim);margin-bottom:24px;font-weight:600}
+.meta .d{color:var(--gold)}
+
+.qbook{font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);
+  font-weight:600;margin-bottom:9px}
+.qtext{font-family:'Fraunces',serif;font-size:clamp(1.3rem,5.2vw,1.62rem);font-weight:600;
+  line-height:1.28;letter-spacing:-.01em;margin:0 0 22px}
+
+.opt{
+  display:flex;gap:13px;align-items:flex-start;width:100%;text-align:left;
+  background:var(--ground-2);border:1px solid rgba(239,233,220,.1);
+  border-left:2px solid transparent;border-radius:var(--r);
+  color:inherit;font:inherit;font-size:.97rem;line-height:1.42;
+  padding:14px 16px;margin-bottom:9px;cursor:pointer;
+  transition:background .16s,border-color .16s;
+}
+.opt:hover:not(.locked),.opt:focus-visible{background:var(--raise);border-left-color:var(--gold)}
+.opt .k{font-family:'Fraunces',serif;font-weight:700;color:var(--gold);flex:0 0 auto;
+  font-size:.92rem;padding-top:1px;min-width:14px}
+.opt.locked{cursor:default}
+.opt.right{border-left-color:var(--gold);background:rgba(200,160,46,.13);border-color:rgba(200,160,46,.4)}
+.opt.right .k{color:var(--gold-soft)}
+.opt.wrong{border-left-color:var(--scarlet);background:rgba(192,69,63,.13);border-color:rgba(192,69,63,.4)}
+.opt.wrong .k{color:var(--scarlet)}
+.opt.dim{opacity:.45}
+
+/* ── signature: the verse panel ── */
+.panel{margin-top:22px;animation:unfurl .42s cubic-bezier(.2,.7,.3,1) both}
+@keyframes unfurl{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.verdict{font-family:'Fraunces',serif;font-size:1.16rem;font-weight:700;margin-bottom:10px;
+  display:flex;align-items:center;gap:9px}
+.verdict.y{color:var(--gold-soft)}
+.verdict.n{color:var(--scarlet)}
+.verdict .mk{font-size:.86rem;opacity:.8}
+.explain{color:var(--linen);font-size:.95rem;line-height:1.58;margin:0}
+.scroll{
+  margin-top:18px;padding:16px 0 2px;border-top:1px solid var(--hair);
+}
+.scroll .ref{font-size:.66rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gold);font-weight:600;margin-bottom:8px}
+.scroll blockquote{
+  margin:0;font-family:'EB Garamond',Georgia,serif;font-size:1.14rem;line-height:1.52;
+  color:#DED7C6;font-style:italic;
+  padding-left:15px;border-left:1px solid var(--hair);
+}
+
+/* ── results ── */
+.score{text-align:center;padding:30px 0 8px}
+.score .big{font-family:'Fraunces',serif;font-size:clamp(3.6rem,19vw,5.4rem);font-weight:700;
+  line-height:.92;color:var(--gold);letter-spacing:-.03em}
+.score .of{font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--linen-dim);margin-top:12px;font-weight:600}
+.score .word{font-family:'Fraunces',serif;font-style:italic;font-size:1.16rem;
+  color:var(--linen);margin-top:16px}
+.rev{margin-top:30px;padding-top:22px;border-top:1px solid var(--hair)}
+.rev .item{padding:15px 0;border-bottom:1px solid rgba(239,233,220,.07)}
+.rev .item:last-child{border-bottom:none}
+.rev .rq{font-family:'Fraunces',serif;font-size:1rem;font-weight:600;margin-bottom:7px;line-height:1.3}
+.rev .ra{font-size:.87rem;color:var(--linen-dim);line-height:1.5}
+.rev .ra b{color:var(--gold-soft);font-weight:600}
+.rev .ra .x{color:var(--scarlet)}
+
+.stats{margin-top:26px;padding-top:20px;border-top:1px solid var(--hair);
+  font-size:.8rem;color:var(--linen-dim);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.stats b{color:var(--linen);font-weight:600}
+
+.foot{margin-top:34px;padding-top:18px;border-top:1px solid var(--hair);
+  font-size:.72rem;color:var(--linen-dim);line-height:1.6}
+.foot a{color:var(--gold);text-decoration:none}
+
+.hidden{display:none}
+:focus-visible{outline:2px solid var(--gold-soft);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- HOME -->
+  <section id="s-home">
+    <header class="mast">
+      <h1>The <em>Testimony</em></h1>
+      <p>An Old Testament quiz. Every answer explained, every citation checked against the King James text.</p>
+    </header>
+    <p class="eyebrow">Choose a range</p>
+    <button class="card" data-go="general">
+      <span class="t">General quiz</span>
+      <span class="s">Drawn from the whole Old Testament</span>
+    </button>
+    <button class="card" data-go="bybook">
+      <span class="t">Quiz by book</span>
+      <span class="s" id="bookcount">Pick a single book</span>
+    </button>
+    <div class="stats" id="lifetime"></div>
+    <p class="foot">Scripture quotations from the Authorized (King James) Version. Answers are stored on this device only.</p>
+  </section>
+
+  <!-- BOOK PICKER -->
+  <section id="s-books" class="hidden">
+    <button class="back" data-back="home">&larr; Back</button>
+    <p class="eyebrow">Quiz by book</p>
+    <div id="booklist"></div>
+  </section>
+
+  <!-- SETUP -->
+  <section id="s-setup" class="hidden">
+    <button class="back" data-back="auto">&larr; Back</button>
+    <p class="eyebrow" id="setup-scope">Old Testament</p>
+    <h2 id="setup-title" style="font-size:1.7rem;margin-bottom:26px">Set the quiz</h2>
+
+    <p class="eyebrow mute">Difficulty</p>
+    <div class="row" id="difrow">
+      <button class="chip" data-dif="mix" aria-pressed="true">Mix</button>
+      <button class="chip" data-dif="easy">Easy</button>
+      <button class="chip" data-dif="medium">Medium</button>
+      <button class="chip" data-dif="hard">Hard</button>
+    </div>
+
+    <p class="eyebrow mute" style="margin-top:22px">Length</p>
+    <div class="row" id="lenrow">
+      <button class="chip" data-len="1">Random<span class="n">one question</span></button>
+      <button class="chip" data-len="10" aria-pressed="true">10<span class="n">questions</span></button>
+      <button class="chip" data-len="20">20<span class="n">questions</span></button>
+      <button class="chip" data-len="50">50<span class="n">questions</span></button>
+    </div>
+
+    <button class="go" id="start">Begin</button>
+    <p class="foot" id="poolnote"></p>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="s-quiz" class="hidden">
+    <div class="bar"><i id="barfill"></i></div>
+    <div class="meta">
+      <span id="counter">1 / 10</span>
+      <span class="d" id="difbadge">Medium</span>
+    </div>
+    <p class="qbook" id="qbook">Genesis</p>
+    <h2 class="qtext" id="qtext"></h2>
+    <div id="opts"></div>
+    <div id="panel"></div>
+  </section>
+
+  <!-- RESULTS -->
+  <section id="s-results" class="hidden">
+    <div class="score">
+      <div class="big" id="r-score">0</div>
+      <div class="of" id="r-of">out of 10</div>
+      <div class="word" id="r-word"></div>
+    </div>
+    <button class="go" id="again">Take another</button>
+    <button class="card" id="home2" style="margin-top:10px;border-left-color:var(--argaman)">
+      <span class="t">Back to start</span>
+      <span class="s">Change range, difficulty, or length</span>
+    </button>
+    <div class="rev hidden" id="review">
+      <p class="eyebrow">Worth another look</p>
+      <div id="revlist"></div>
+    </div>
+  </section>
+
+</div>
+
+<script src="questions.js"></script>
+<script>
+(function(){
+"use strict";
+var BANK = window.QUESTION_BANK || [];
+var SECTION_ORDER = ["Torah","Historical","Wisdom","Prophets"];
+var LETTERS = ["A","B","C","D"];
+var STORE = "otq.v1";
+
+/* ── state ── */
+var state = {scope:"general", book:null, dif:"mix", len:10,
+             queue:[], idx:0, correct:0, missed:[], locked:false};
+
+/* ── persistence ── */
+function loadStats(){
+  try{ var r = localStorage.getItem(STORE); return r ? JSON.parse(r) : null; }
+  catch(e){ return null; }
+}
+function blankStats(){ return {answered:0, correct:0, quizzes:0, byBook:{}}; }
+var stats = loadStats() || blankStats();
+function saveStats(){
+  try{ localStorage.setItem(STORE, JSON.stringify(stats)); }catch(e){}
+}
+
+/* ── helpers ── */
+function $(id){ return document.getElementById(id); }
+function show(id){
+  ["s-home","s-books","s-setup","s-quiz","s-results"].forEach(function(s){
+    $(s).classList.toggle("hidden", s !== id);
+  });
+  window.scrollTo(0,0);
+}
+function shuffle(a){
+  a = a.slice();
+  for(var i=a.length-1;i>0;i--){ var j=Math.floor(Math.random()*(i+1)); var t=a[i]; a[i]=a[j]; a[j]=t; }
+  return a;
+}
+function pool(scope, book, dif){
+  return BANK.filter(function(q){
+    if(scope === "book" && q.book !== book) return false;
+    if(dif !== "mix" && q.difficulty !== dif) return false;
+    return true;
+  });
+}
+function esc(s){ return String(s).replace(/[&<>]/g, function(c){
+  return {"&":"&amp;","<":"&lt;",">":"&gt;"}[c]; }); }
+
+/* ── home ── */
+function renderHome(){
+  var books = {};
+  BANK.forEach(function(q){ books[q.book]=1; });
+  $("bookcount").textContent = Object.keys(books).length + " books available";
+  var el = $("lifetime");
+  if(stats.answered > 0){
+    var pct = Math.round(stats.correct / stats.answered * 100);
+    el.innerHTML = "<span>Answered <b>"+stats.answered+"</b></span>" +
+                   "<span>Correct <b>"+pct+"%</b></span>" +
+                   "<span>Quizzes <b>"+stats.quizzes+"</b></span>";
+  } else { el.innerHTML = ""; }
+  show("s-home");
+}
+
+/* ── book picker ── */
+function renderBooks(){
+  var bySect = {};
+  BANK.forEach(function(q){
+    (bySect[q.section] = bySect[q.section] || {});
+    bySect[q.section][q.book] = (bySect[q.section][q.book]||0) + 1;
+  });
+  var html = "";
+  SECTION_ORDER.forEach(function(sec){
+    if(!bySect[sec]) return;
+    var books = Object.keys(bySect[sec]);
+    var total = books.reduce(function(a,b){ return a + bySect[sec][b]; }, 0);
+    html += '<div class="sect"><h3>'+esc(sec)+'</h3><span class="line"></span>' +
+            '<span class="ct">'+total+'</span></div>';
+    books.forEach(function(b){
+      var n = bySect[sec][b];
+      html += '<button class="card" data-book="'+esc(b)+'">' +
+              '<span class="t">'+esc(b)+'</span>' +
+              '<span class="s">'+n+' question'+(n===1?"":"s")+'</span></button>';
+    });
+  });
+  $("booklist").innerHTML = html;
+  show("s-books");
+}
+
+/* ── setup ── */
+function renderSetup(){
+  $("setup-scope").textContent = state.scope === "book" ? state.book : "Whole Old Testament";
+  $("setup-title").textContent = state.scope === "book" ? state.book : "General quiz";
+  syncSetup();
+  show("s-setup");
+}
+function syncSetup(){
+  // difficulty availability
+  [].forEach.call(document.querySelectorAll("#difrow .chip"), function(c){
+    var d = c.getAttribute("data-dif");
+    var n = pool(state.scope, state.book, d).length;
+    c.disabled = n === 0;
+    if(n === 0 && state.dif === d){ state.dif = "mix"; }
+    c.setAttribute("aria-pressed", String(state.dif === d));
+  });
+  var avail = pool(state.scope, state.book, state.dif).length;
+  // length availability
+  var best = 1;
+  [].forEach.call(document.querySelectorAll("#lenrow .chip"), function(c){
+    var L = +c.getAttribute("data-len");
+    var ok = avail >= L;
+    c.disabled = !ok;
+    if(ok) best = Math.max(best, L === 1 ? 1 : L);
+    c.setAttribute("aria-pressed","false");
+  });
+  if(pool(state.scope,state.book,state.dif).length < state.len){
+    state.len = (avail >= 20) ? 20 : (avail >= 10 ? 10 : 1);
+  }
+  var sel = document.querySelector('#lenrow .chip[data-len="'+state.len+'"]');
+  if(sel && !sel.disabled){ sel.setAttribute("aria-pressed","true"); }
+  else {
+    var fb = document.querySelector('#lenrow .chip[data-len="1"]');
+    if(fb){ fb.setAttribute("aria-pressed","true"); state.len = 1; }
+  }
+  $("start").disabled = avail === 0;
+  var label = state.dif === "mix" ? "" : " at " + state.dif;
+  $("poolnote").textContent = avail + " question" + (avail===1?"":"s") +
+    " available" + label + ". Lengths beyond that are greyed out until the bank grows.";
+}
+
+/* ── quiz ── */
+function begin(){
+  var p = shuffle(pool(state.scope, state.book, state.dif));
+  state.queue = p.slice(0, Math.min(state.len, p.length));
+  state.idx = 0; state.correct = 0; state.missed = []; state.locked = false;
+  renderQ();
+  show("s-quiz");
+}
+function renderQ(){
+  var q = state.queue[state.idx];
+  state.locked = false;
+  $("barfill").style.width = (state.idx / state.queue.length * 100) + "%";
+  $("counter").textContent = (state.idx+1) + " / " + state.queue.length;
+  $("difbadge").textContent = q.difficulty;
+  $("qbook").textContent = q.book;
+  $("qtext").textContent = q.q;
+  $("panel").innerHTML = "";
+
+  // shuffle options, track where the answer went
+  var pairs = q.options.map(function(o,i){ return {text:o, right:i === q.answer}; });
+  pairs = shuffle(pairs);
+  q._shown = pairs;
+
+  var html = "";
+  pairs.forEach(function(p,i){
+    html += '<button class="opt" data-i="'+i+'">' +
+            '<span class="k">'+LETTERS[i]+'</span>' +
+            '<span>'+esc(p.text)+'</span></button>';
+  });
+  $("opts").innerHTML = html;
+}
+function answer(i){
+  if(state.locked) return;
+  state.locked = true;
+  var q = state.queue[state.idx];
+  var chosen = q._shown[i];
+  var right = chosen.right;
+
+  if(right){ state.correct++; }
+  else { state.missed.push({q:q, chose:chosen.text}); }
+
+  stats.answered++;
+  if(right) stats.correct++;
+  var bb = stats.byBook[q.book] || {n:0,c:0};
+  bb.n++; if(right) bb.c++;
+  stats.byBook[q.book] = bb;
+  saveStats();
+
+  var correctText = "";
+  [].forEach.call($("opts").children, function(btn, j){
+    btn.classList.add("locked");
+    if(q._shown[j].right){ btn.classList.add("right"); correctText = q._shown[j].text; }
+    else if(j === i){ btn.classList.add("wrong"); }
+    else { btn.classList.add("dim"); }
+  });
+
+  var p = '<div class="panel">' +
+    '<div class="verdict ' + (right?"y":"n") + '">' +
+      (right ? '<span class="mk">&#10003;</span>Correct'
+             : '<span class="mk">&#10007;</span>Not quite') +
+    '</div>' +
+    (right ? "" : '<p class="explain" style="margin-bottom:10px"><b style="color:var(--gold-soft)">' +
+        esc(correctText) + '</b></p>') +
+    '<p class="explain">' + esc(q.explain) + '</p>' +
+    '<div class="scroll">' +
+      '<div class="ref">' + esc(q.ref) + '</div>' +
+      (q.quote ? '<blockquote>' + esc(q.quote) + '</blockquote>' : '') +
+    '</div>' +
+    '<button class="go" id="next">' +
+      (state.idx + 1 < state.queue.length ? "Next question" : "See results") +
+    '</button></div>';
+  $("panel").innerHTML = p;
+  $("barfill").style.width = ((state.idx+1) / state.queue.length * 100) + "%";
+  $("next").addEventListener("click", nextQ);
+  $("next").focus({preventScroll:true});
+  $("panel").scrollIntoView({behavior:"smooth", block:"nearest"});
+}
+function nextQ(){
+  state.idx++;
+  if(state.idx >= state.queue.length){ finish(); }
+  else { renderQ(); window.scrollTo({top:0,behavior:"smooth"}); }
+}
+function verdictWord(pct){
+  if(pct === 100) return "Every one.";
+  if(pct >= 90) return "Well kept.";
+  if(pct >= 75) return "Solid ground.";
+  if(pct >= 50) return "Worth another pass.";
+  if(pct >= 25) return "Room to grow.";
+  return "Begin again.";
+}
+function finish(){
+  stats.quizzes++;
+  saveStats();
+  var n = state.queue.length;
+  var pct = Math.round(state.correct / n * 100);
+  $("r-score").textContent = state.correct;
+  $("r-of").textContent = "out of " + n;
+  $("r-word").textContent = verdictWord(pct);
+
+  if(state.missed.length){
+    var html = "";
+    state.missed.forEach(function(m){
+      html += '<div class="item">' +
+        '<div class="rq">' + esc(m.q.q) + '</div>' +
+        '<div class="ra"><span class="x">You chose: ' + esc(m.chose) + '</span><br>' +
+        'Answer: <b>' + esc(m.q.options[m.q.answer]) + '</b><br>' +
+        '<span style="opacity:.75">' + esc(m.q.ref) + '</span></div></div>';
+    });
+    $("revlist").innerHTML = html;
+    $("review").classList.remove("hidden");
+  } else {
+    $("review").classList.add("hidden");
+  }
+  show("s-results");
+}
+
+/* ── events ── */
+document.addEventListener("click", function(e){
+  var t = e.target.closest("button");
+  if(!t) return;
+
+  if(t.dataset.go === "general"){ state.scope="general"; state.book=null; renderSetup(); return; }
+  if(t.dataset.go === "bybook"){ renderBooks(); return; }
+  if(t.dataset.book){ state.scope="book"; state.book=t.dataset.book; renderSetup(); return; }
+  if(t.dataset.back === "home"){ renderHome(); return; }
+  if(t.dataset.back === "auto"){ state.scope==="book" ? renderBooks() : renderHome(); return; }
+  if(t.dataset.dif){ state.dif = t.dataset.dif; syncSetup(); return; }
+  if(t.dataset.len){
+    state.len = +t.dataset.len;
+    [].forEach.call(document.querySelectorAll("#lenrow .chip"), function(c){
+      c.setAttribute("aria-pressed", String(c === t));
+    });
+    return;
+  }
+  if(t.id === "start"){ begin(); return; }
+  if(t.id === "again"){ begin(); return; }
+  if(t.id === "home2"){ renderHome(); return; }
+
+  var opt = e.target.closest(".opt");
+  if(opt && !state.locked){ answer(+opt.dataset.i); return; }
+});
+
+/* keyboard: A-D to answer, Enter to advance */
+document.addEventListener("keydown", function(e){
+  if($("s-quiz").classList.contains("hidden")) return;
+  var k = e.key.toUpperCase();
+  var i = LETTERS.indexOf(k);
+  if(i > -1 && !state.locked){
+    var btn = $("opts").children[i];
+    if(btn) btn.click();
+  }
+});
+
+/* ── boot ── */
+if(!BANK.length){
+  document.querySelector(".wrap").innerHTML =
+    '<div class="mast"><h1>No questions loaded</h1>' +
+    '<p>questions.js did not load. Make sure it sits in the same folder as index.html.</p></div>';
+} else {
+  renderHome();
+}
+})();
+</script>
+</body>
+</html>
