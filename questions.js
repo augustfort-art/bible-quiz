@@ -1,5 +1,5 @@
 /* Old Testament Quiz — question bank
-   504 questions · Packs 1–6
+   679 questions · Packs 1–9
    Every ref and quote verified verbatim against the KJV text.
 */
 window.QUESTION_BANK = [
@@ -8350,5 +8350,2884 @@ window.QUESTION_BANK = [
   "explain": "A song of deliverance nearly identical to Psalm 18, piling up images of God as refuge and strength after David's rescue from all his enemies.",
   "ref": "2 Samuel 22:2",
   "quote": "The LORD is my rock, and my fortress, and my deliverer"
+ },
+ {
+  "id": "1ch-005",
+  "book": "1 Chronicles",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What stronghold did David capture to make his capital, according to Chronicles?",
+  "options": [
+   "Hebron",
+   "The castle of Zion (Jebus)",
+   "Shiloh",
+   "Bethel"
+  ],
+  "answer": 1,
+  "explain": "David took the Jebusite fortress and it became the city of David — Jerusalem. Hebron had been his earlier capital over Judah alone.",
+  "ref": "1 Chronicles 11:5"
+ },
+ {
+  "id": "1ch-006",
+  "book": "1 Chronicles",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "Who provoked David to number Israel, per 1 Chronicles?",
+  "options": [
+   "Joab",
+   "Satan",
+   "Nathan",
+   "Absalom"
+  ],
+  "answer": 1,
+  "explain": "Chronicles attributes the census's instigation to Satan; the parallel in 2 Samuel frames it differently. The plague that followed led David to buy the threshing floor that became the temple site.",
+  "ref": "1 Chronicles 21:1",
+  "quote": "And Satan stood up against Israel, and provoked David to number Israel."
+ },
+ {
+  "id": "1ch-007",
+  "book": "1 Chronicles",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "How does Chronicles describe David's death?",
+  "options": [
+   "Slain in battle",
+   "In a good old age, full of days, riches, and honour",
+   "By a lingering sickness",
+   "In exile"
+  ],
+  "answer": 1,
+  "explain": "A peaceful end after a long reign, with Solomon succeeding him — Chronicles' summary of a life it presents as largely exemplary.",
+  "ref": "1 Chronicles 29:28",
+  "quote": "he died in a good old age, full of days, riches, and honour"
+ },
+ {
+  "id": "2ch-006",
+  "book": "2 Chronicles",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "Besides wisdom, what did God grant Solomon that he had not asked for?",
+  "options": [
+   "Long life",
+   "Riches, wealth, and honour",
+   "Victory in war",
+   "Many sons"
+  ],
+  "answer": 1,
+  "explain": "Because he asked for wisdom to govern rather than riches or the death of enemies, God added wealth and honour beyond any king before or after.",
+  "ref": "2 Chronicles 1:12",
+  "quote": "I will give thee riches, and wealth, and honour"
+ },
+ {
+  "id": "2ch-007",
+  "book": "2 Chronicles",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What became of wicked King Manasseh after he was taken captive to Babylon?",
+  "options": [
+   "He died in chains",
+   "He humbled himself, prayed, and God restored him to Jerusalem",
+   "He was executed",
+   "He never repented"
+  ],
+  "answer": 1,
+  "explain": "Chronicles records a remarkable repentance not mentioned in Kings — the longest-reigning and most idolatrous king humbled himself and was brought home.",
+  "ref": "2 Chronicles 33:13"
+ },
+ {
+  "id": "2ch-008",
+  "book": "2 Chronicles",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "With whose decree does 2 Chronicles — and the Hebrew Bible's order — close?",
+  "options": [
+   "Nebuchadnezzar's",
+   "Cyrus of Persia's, permitting the return",
+   "Darius's",
+   "Artaxerxes's"
+  ],
+  "answer": 1,
+  "explain": "Cyrus's proclamation to rebuild the temple ends Chronicles on a note of hope. In the Hebrew ordering, Chronicles is the last book of the whole Bible.",
+  "ref": "2 Chronicles 36:23"
+ },
+ {
+  "id": "1sa-028",
+  "book": "1 Samuel",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "How does Hannah's song of praise describe the LORD's dealings?",
+  "options": [
+   "“He giveth to all men liberally”",
+   "“The LORD maketh poor, and maketh rich: he bringeth low, and lifteth up”",
+   "“His mercy is on them that fear him”",
+   "“He is a rewarder of them that seek him”"
+  ],
+  "answer": 1,
+  "explain": "Her song of reversal, after God gave her Samuel, prefigures Mary's Magnificat centuries later in its themes of the humble raised and the mighty brought down.",
+  "ref": "1 Samuel 2:7",
+  "quote": "The LORD maketh poor, and maketh rich: he bringeth low, and lifteth up"
+ },
+ {
+  "id": "1sa-029",
+  "book": "1 Samuel",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "How did Saul die at the battle of Gilboa?",
+  "options": [
+   "He was slain by a Philistine",
+   "He fell upon his own sword",
+   "He fled and was captured",
+   "He died of his wounds days later"
+  ],
+  "answer": 1,
+  "explain": "Wounded and fearing capture, Saul asked his armourbearer to kill him; when he refused, Saul fell on his sword. His sons, including Jonathan, died the same day.",
+  "ref": "1 Samuel 31:4"
+ },
+ {
+  "id": "2sa-016",
+  "book": "2 Samuel",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "How does David's lament for Saul and Jonathan famously begin and recur?",
+  "options": [
+   "“Weep not for me”",
+   "“How are the mighty fallen!”",
+   "“The LORD gave and took away”",
+   "“My heart is broken”"
+  ],
+  "answer": 1,
+  "explain": "The refrain runs three times through the elegy, mourning even the king who had hunted him — a striking act of grace toward an enemy.",
+  "ref": "2 Samuel 1:19",
+  "quote": "how are the mighty fallen!"
+ },
+ {
+  "id": "2sa-017",
+  "book": "2 Samuel",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "When offered a choice of punishments for the census, what did David choose?",
+  "options": [
+   "Famine",
+   "To fall into the hand of the LORD rather than of men",
+   "Fleeing before enemies",
+   "He refused to choose"
+  ],
+  "answer": 1,
+  "explain": "‘Let us fall now into the hand of the LORD; for his mercies are great.’ A plague followed, halted at the threshing floor of Araunah — the future temple site.",
+  "ref": "2 Samuel 24:14",
+  "quote": "let us fall now into the hand of the LORD; for his mercies are great"
+ },
+ {
+  "id": "2sa-018",
+  "book": "2 Samuel",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What group is catalogued in 2 Samuel 23, near the end of David's story?",
+  "options": [
+   "His wives",
+   "His mighty men and their exploits",
+   "His sons",
+   "The kings he defeated"
+  ],
+  "answer": 1,
+  "explain": "A roll of David's warriors — men like Adino, Eleazar, and Benaiah — recording feats such as standing alone against armies. Uriah the Hittite appears in the list.",
+  "ref": "2 Samuel 23:8"
+ },
+ {
+  "id": "1ki-025",
+  "book": "1 Kings",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "What judgment did Elijah pronounce on Ahab over Naboth's vineyard?",
+  "options": [
+   "That his crops would fail",
+   "That dogs would lick his blood where they had licked Naboth's",
+   "That he would be exiled",
+   "That his throne would pass to a stranger"
+  ],
+  "answer": 1,
+  "explain": "The grim prophecy over the murder-and-seizure was fulfilled at Ahab's death; the dogs licked his blood by the pool of Samaria.",
+  "ref": "1 Kings 21:19",
+  "quote": "shall dogs lick thy blood"
+ },
+ {
+  "id": "1ki-026",
+  "book": "1 Kings",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "What did God say he had done to the temple in response to Solomon's prayer?",
+  "options": [
+   "Filled it with angels",
+   "Hallowed it and put his name there",
+   "Sealed its doors",
+   "Made it invisible to enemies"
+  ],
+  "answer": 1,
+  "explain": "God promised his name and heart would be there perpetually — conditional, though, on the kings' faithfulness, a condition later broken.",
+  "ref": "1 Kings 9:3",
+  "quote": "I have hallowed this house, which thou hast built, to put my name there for ever"
+ },
+ {
+  "id": "2ki-023",
+  "book": "2 Kings",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "How did Jezebel die?",
+  "options": [
+   "By poison",
+   "She was thrown down from a window and trampled",
+   "In a fire",
+   "By her own hand"
+  ],
+  "answer": 1,
+  "explain": "At Jehu's command her own eunuchs threw her down; dogs consumed her body, fulfilling Elijah's prophecy that little of her would remain to bury.",
+  "ref": "2 Kings 9:33"
+ },
+ {
+  "id": "2ki-022",
+  "book": "2 Kings",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "Which empire captured Samaria and carried the northern kingdom of Israel into exile?",
+  "options": [
+   "Babylon",
+   "Assyria",
+   "Persia",
+   "Egypt"
+  ],
+  "answer": 1,
+  "explain": "Assyria took Samaria in Hoshea's reign and deported Israel — the end of the ten northern tribes. Babylon later did the same to Judah in the south.",
+  "ref": "2 Kings 17:6"
+ },
+ {
+  "id": "psa-026",
+  "book": "Psalms",
+  "section": "Wisdom",
+  "difficulty": "hard",
+  "q": "Which psalm opens, “My God, my God, why hast thou forsaken me?”",
+  "options": [
+   "Psalm 22",
+   "Psalm 42",
+   "Psalm 88",
+   "Psalm 130"
+  ],
+  "answer": 0,
+  "explain": "A psalm of anguish that turns to praise; its opening words were spoken by Jesus from the cross, and it describes pierced hands and divided garments.",
+  "ref": "Psalms 22:1",
+  "quote": "My God, my God, why hast thou forsaken me?"
+ },
+ {
+  "id": "psa-027",
+  "book": "Psalms",
+  "section": "Wisdom",
+  "difficulty": "medium",
+  "q": "To whom is the LORD near, according to Psalm 34?",
+  "options": [
+   "The mighty",
+   "Them that are of a broken heart",
+   "The wealthy",
+   "The learned"
+  ],
+  "answer": 1,
+  "explain": "‘The LORD is nigh unto them that are of a broken heart; and saveth such as be of a contrite spirit.’ A recurring theme: God's nearness to the crushed.",
+  "ref": "Psalms 34:18",
+  "quote": "The LORD is nigh unto them that are of a broken heart"
+ },
+ {
+  "id": "psa-028",
+  "book": "Psalms",
+  "section": "Wisdom",
+  "difficulty": "medium",
+  "q": "Psalm 127 warns that unless the LORD builds the house, what?",
+  "options": [
+   "It shall fall in the night",
+   "They labour in vain that build it",
+   "No one shall dwell in it",
+   "It shall not be blessed"
+  ],
+  "answer": 1,
+  "explain": "Human effort without God is futile toil; the psalm goes on to call children a heritage from the LORD. Attributed to Solomon, the temple-builder.",
+  "ref": "Psalms 127:1",
+  "quote": "Except the LORD build the house, they labour in vain that build it"
+ },
+ {
+  "id": "psa-029",
+  "book": "Psalms",
+  "section": "Wisdom",
+  "difficulty": "medium",
+  "q": "Which refrain repeats in every verse of Psalm 136?",
+  "options": [
+   "“Praise ye the LORD”",
+   "“For his mercy endureth for ever”",
+   "“The LORD reigneth”",
+   "“Holy is his name”"
+  ],
+  "answer": 1,
+  "explain": "Twenty-six times the refrain answers each line recounting God's acts in creation and history — a litany of steadfast love.",
+  "ref": "Psalms 136:1",
+  "quote": "for his mercy endureth for ever"
+ },
+ {
+  "id": "psa-030",
+  "book": "Psalms",
+  "section": "Wisdom",
+  "difficulty": "hard",
+  "q": "How does Psalm 63 express longing for God?",
+  "options": [
+   "“As the hart panteth”",
+   "“My soul thirsteth for thee… in a dry and thirsty land”",
+   "“Out of the depths I cry”",
+   "“My heart and flesh crieth out”"
+  ],
+  "answer": 1,
+  "explain": "A psalm of David in the wilderness; the parched land mirrors the soul's thirst. ‘As the hart panteth’ is the similar opening of Psalm 42.",
+  "ref": "Psalms 63:1",
+  "quote": "my soul thirsteth for thee, my flesh longeth for thee in a dry and thirsty land"
+ },
+ {
+  "id": "isa-020",
+  "book": "Isaiah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What does Isaiah 35 promise the desert will do?",
+  "options": [
+   "Swallow the wicked",
+   "Blossom as the rose",
+   "Turn to glass",
+   "Cover the nations"
+  ],
+  "answer": 1,
+  "explain": "A vision of restoration — the wilderness rejoicing, the blind seeing, the lame leaping. The chapter's imagery of healing is echoed in the Gospels.",
+  "ref": "Isaiah 35:1",
+  "quote": "the desert shall rejoice, and blossom as the rose"
+ },
+ {
+  "id": "isa-021",
+  "book": "Isaiah",
+  "section": "Prophets",
+  "difficulty": "medium",
+  "q": "What universal call does Isaiah 45 issue?",
+  "options": [
+   "“Come, let us reason together”",
+   "“Look unto me, and be ye saved, all the ends of the earth”",
+   "“Seek ye the LORD while he may be found”",
+   "“Awake, awake, put on strength”"
+  ],
+  "answer": 1,
+  "explain": "A summons to the whole earth grounded in God's uniqueness — ‘I am God, and there is none else.’ Isaiah's vision reaches far beyond Israel.",
+  "ref": "Isaiah 45:22",
+  "quote": "Look unto me, and be ye saved, all the ends of the earth"
+ },
+ {
+  "id": "isa-022",
+  "book": "Isaiah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "Which Isaiah passage did Jesus read in the synagogue, claiming its fulfilment?",
+  "options": [
+   "“Comfort ye my people”",
+   "“The Spirit of the Lord GOD is upon me… to preach good tidings unto the meek”",
+   "“Unto us a child is born”",
+   "“He was wounded for our transgressions”"
+  ],
+  "answer": 1,
+  "explain": "Luke records Jesus reading this passage in Nazareth and declaring it fulfilled that day — good news to the poor, liberty to captives.",
+  "ref": "Isaiah 61:1",
+  "quote": "The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek"
+ },
+ {
+  "id": "jer-010",
+  "book": "Jeremiah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What sixfold commission was given to the young prophet Jeremiah?",
+  "options": [
+   "To bless and curse",
+   "To root out, pull down, destroy, throw down, build, and plant",
+   "To heal and comfort",
+   "To gather and scatter"
+  ],
+  "answer": 1,
+  "explain": "Set over nations and kingdoms, his word would both tear down and rebuild — a mandate matching the turbulent era of Judah's fall.",
+  "ref": "Jeremiah 1:10",
+  "quote": "to root out, and to pull down, and to destroy, and to throw down, to build, and to plant"
+ },
+ {
+  "id": "jer-011",
+  "book": "Jeremiah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "Whose weeping for her children does Jeremiah 31 depict, a voice heard in Ramah?",
+  "options": [
+   "Rachel",
+   "Leah",
+   "Sarah",
+   "Hannah"
+  ],
+  "answer": 0,
+  "explain": "Rachel weeping for her children, refusing comfort — an image of exile's grief. Matthew applies it to the slaughter of the infants at Bethlehem.",
+  "ref": "Jeremiah 31:15",
+  "quote": "Rahel weeping for her children"
+ },
+ {
+  "id": "jer-012",
+  "book": "Jeremiah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "Why did God commend the Rechabites to Jeremiah?",
+  "options": [
+   "For their wealth",
+   "For faithfully obeying their forefather's command not to drink wine",
+   "For rebuilding the temple",
+   "For their skill in war"
+  ],
+  "answer": 1,
+  "explain": "Their obedience to a human ancestor shamed Judah's disobedience to God. Jeremiah used them as a living object lesson.",
+  "ref": "Jeremiah 35:6"
+ },
+ {
+  "id": "eze-009",
+  "book": "Ezekiel",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What devastating thing does Ezekiel 10 describe happening to the temple?",
+  "options": [
+   "Its gates were shut",
+   "The glory of the LORD departed from it",
+   "Fire consumed it",
+   "Its walls fell"
+  ],
+  "answer": 1,
+  "explain": "The visible glory lifting from the threshold signalled God's withdrawal before the temple's destruction — among the most sombre moments in the prophets.",
+  "ref": "Ezekiel 10:18",
+  "quote": "Then the glory of the LORD departed from off the threshold of the house"
+ },
+ {
+  "id": "eze-010",
+  "book": "Ezekiel",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "Against what future enemy does Ezekiel 38 set the prophet's face?",
+  "options": [
+   "Babylon",
+   "Gog, of the land of Magog",
+   "Egypt",
+   "Edom"
+  ],
+  "answer": 1,
+  "explain": "Gog of Magog leads a coalition against restored Israel and is destroyed — imagery later taken up in Revelation's vision of the end.",
+  "ref": "Ezekiel 38:2"
+ },
+ {
+  "id": "dan-015",
+  "book": "Daniel",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What span of time does Gabriel reveal is “determined” in Daniel 9?",
+  "options": [
+   "Seven years",
+   "Seventy weeks",
+   "A thousand years",
+   "Forty days"
+  ],
+  "answer": 1,
+  "explain": "The famous seventy-weeks prophecy, given as Daniel prayed over Jeremiah's seventy years of exile — much debated in its interpretation.",
+  "ref": "Daniel 9:24",
+  "quote": "Seventy weeks are determined upon thy people and upon thy holy city"
+ },
+ {
+  "id": "dan-016",
+  "book": "Daniel",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "Which angelic prince is said to have helped against the “prince of Persia” in Daniel 10?",
+  "options": [
+   "Gabriel",
+   "Michael",
+   "Raphael",
+   "The prince of Greece"
+  ],
+  "answer": 1,
+  "explain": "Michael, described as one of the chief princes and Israel's guardian, aided the messenger delayed twenty-one days — a rare glimpse of unseen conflict.",
+  "ref": "Daniel 10:13"
+ },
+ {
+  "id": "amo-007",
+  "book": "Amos",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What does God say through Amos about Israel's feast days and assemblies?",
+  "options": [
+   "“I delight in your offerings”",
+   "“I hate, I despise your feast days”",
+   "“Bring more sacrifices”",
+   "“Keep them for ever”"
+  ],
+  "answer": 1,
+  "explain": "God rejects worship divorced from justice; the next verses demand that judgment roll down like waters. Ritual without righteousness is worthless to him.",
+  "ref": "Amos 5:21",
+  "quote": "I hate, I despise your feast days"
+ },
+ {
+  "id": "oba-002",
+  "book": "Obadiah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What principle of judgment does Obadiah announce against Edom?",
+  "options": [
+   "“As thou hast done, it shall be done unto thee”",
+   "“The meek shall inherit the earth”",
+   "“Vengeance is mine”",
+   "“They that live by the sword”"
+  ],
+  "answer": 0,
+  "explain": "Edom's violence against a helpless Judah would rebound on its own head — the measure it gave would be measured back, on the day of the LORD.",
+  "ref": "Obadiah 1:15",
+  "quote": "as thou hast done, it shall be done unto thee"
+ },
+ {
+  "id": "mic-006",
+  "book": "Micah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What does Micah say fills him, setting him apart from false prophets?",
+  "options": [
+   "Wealth and honour",
+   "Power by the spirit of the LORD, and judgment, and might",
+   "The favour of kings",
+   "The wisdom of elders"
+  ],
+  "answer": 1,
+  "explain": "His authority came not from popularity but from the Spirit, enabling him to declare Israel's sin plainly — unlike the prophets who told the people what they wished to hear.",
+  "ref": "Micah 3:8",
+  "quote": "I am full of power by the spirit of the LORD"
+ },
+ {
+  "id": "hab-004",
+  "book": "Habakkuk",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What problem does Habakkuk wrestle with before God?",
+  "options": [
+   "Why the temple was destroyed",
+   "How a pure God can use a wicked nation to punish a less wicked one",
+   "Whether to flee Judah",
+   "Why the rains failed"
+  ],
+  "answer": 1,
+  "explain": "Told God would use Babylon to judge Judah, the prophet protests that God is too pure to look on such evil — the book's central struggle with divine justice.",
+  "ref": "Habakkuk 1:13",
+  "quote": "Thou art of purer eyes than to behold evil"
+ },
+ {
+  "id": "zep-003",
+  "book": "Zephaniah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What does Zephaniah urge the meek of the earth to seek?",
+  "options": [
+   "Wealth and safety",
+   "The LORD, righteousness, and meekness",
+   "Vengeance",
+   "A new king"
+  ],
+  "answer": 1,
+  "explain": "A call to the humble to seek God and righteousness, that they might be hidden in the day of the LORD's anger — a thread of hope in a book of judgment.",
+  "ref": "Zephaniah 2:3",
+  "quote": "Seek ye the LORD, all ye meek of the earth"
+ },
+ {
+  "id": "hag-003",
+  "book": "Haggai",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What did Haggai prophesy God would soon do to the heavens and earth?",
+  "options": [
+   "Renew them",
+   "Shake them, and fill the temple with glory",
+   "Destroy them",
+   "Divide them"
+  ],
+  "answer": 1,
+  "explain": "The shaking of the nations would bring their treasures to glorify the second temple — a promise Hebrews later cites concerning an unshakable kingdom.",
+  "ref": "Haggai 2:6",
+  "quote": "I will shake the heavens, and the earth"
+ },
+ {
+  "id": "zec-006",
+  "book": "Zechariah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "Whom did Zechariah see standing before the angel, with Satan at his right hand to resist him?",
+  "options": [
+   "Zerubbabel the governor",
+   "Joshua the high priest",
+   "Haggai the prophet",
+   "Cyrus the king"
+  ],
+  "answer": 1,
+  "explain": "Joshua's filthy garments — symbolizing guilt — were replaced with clean ones, a vision of the priesthood cleansed and the accuser silenced.",
+  "ref": "Zechariah 3:1"
+ },
+ {
+  "id": "zec-007",
+  "book": "Zechariah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What price was weighed out in Zechariah 11, a detail echoed in the Gospels?",
+  "options": [
+   "Thirty pieces of silver",
+   "A talent of gold",
+   "Forty shekels",
+   "A hundred coins"
+  ],
+  "answer": 0,
+  "explain": "The thirty pieces — a slighting wage — reappear in Matthew as the price of betrayal, cast into the temple and used to buy a potter's field.",
+  "ref": "Zechariah 11:12",
+  "quote": "So they weighed for my price thirty pieces of silver"
+ },
+ {
+  "id": "hos-006",
+  "book": "Hosea",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What proverb of consequence does Hosea pronounce on Israel?",
+  "options": [
+   "“They have sown the wind, and they shall reap the whirlwind”",
+   "“The wages of sin is death”",
+   "“What a man soweth, that shall he reap”",
+   "“The axe is laid to the root”"
+  ],
+  "answer": 0,
+  "explain": "A vivid image of disproportionate reckoning — small seeds of folly yielding a storm. The New Testament lines about sowing and reaping are distinct.",
+  "ref": "Hosea 8:7",
+  "quote": "they have sown the wind, and they shall reap the whirlwind"
+ },
+ {
+  "id": "jol-004",
+  "book": "Joel",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What does Joel call the place of the LORD's coming judgment?",
+  "options": [
+   "The valley of dry bones",
+   "The valley of decision",
+   "The valley of the shadow",
+   "The valley of Achor"
+  ],
+  "answer": 1,
+  "explain": "‘Multitudes, multitudes in the valley of decision.’ Joel gathers the nations there for judgment, tied to the great and terrible day of the LORD.",
+  "ref": "Joel 3:14",
+  "quote": "Multitudes, multitudes in the valley of decision"
+ },
+ {
+  "id": "mal-006",
+  "book": "Malachi",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What does Malachi foresee about God's name among the nations?",
+  "options": [
+   "It shall be forgotten",
+   "It shall be great among the Gentiles, from the rising to the setting of the sun",
+   "It shall be feared only in Judah",
+   "It shall be hidden"
+  ],
+  "answer": 1,
+  "explain": "A striking vision of worldwide worship, with incense offered to God's name everywhere — in contrast to the corrupt offerings of the priests Malachi rebukes.",
+  "ref": "Malachi 1:11",
+  "quote": "my name shall be great among the Gentiles"
+ },
+ {
+  "id": "nah-003",
+  "book": "Nahum",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "Against which city is the whole prophecy of Nahum directed?",
+  "options": [
+   "Babylon",
+   "Nineveh",
+   "Damascus",
+   "Tyre"
+  ],
+  "answer": 1,
+  "explain": "Nineveh, the Assyrian capital Jonah had once seen spared, now faces final judgment for its cruelty — a sequel, in effect, to the book of Jonah.",
+  "ref": "Nahum 2:1"
+ },
+ {
+  "id": "rut-007",
+  "book": "Ruth",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "Through which harvests did Ruth glean in Boaz's field?",
+  "options": [
+   "Only the barley harvest",
+   "The barley harvest and the wheat harvest",
+   "Only the wheat harvest",
+   "The grape harvest"
+  ],
+  "answer": 1,
+  "explain": "She gleaned from barley through wheat harvest, staying close to Boaz's maidens — the setting in which their relationship developed toward redemption.",
+  "ref": "Ruth 2:23"
+ },
+ {
+  "id": "ecc-007",
+  "book": "Ecclesiastes",
+  "section": "Wisdom",
+  "difficulty": "medium",
+  "q": "What does Ecclesiastes counsel: “Cast thy bread upon the waters, for…”?",
+  "options": [
+   "“…it shall not return”",
+   "“…thou shalt find it after many days”",
+   "“…the LORD shall bless thee”",
+   "“…thy barns shall be full”"
+  ],
+  "answer": 1,
+  "explain": "Often read as a call to generous or venturing action whose returns come later and unseen — a note of hope amid the book's realism.",
+  "ref": "Ecclesiastes 11:1",
+  "quote": "Cast thy bread upon the waters: for thou shalt find it after many days"
+ },
+ {
+  "id": "sng-004",
+  "book": "Song of Solomon",
+  "section": "Wisdom",
+  "difficulty": "hard",
+  "q": "What does the beloved do “by night on my bed” in the Song?",
+  "options": [
+   "Sings for joy",
+   "Seeks him whom her soul loveth",
+   "Weeps in sorrow",
+   "Dreams of a garden"
+  ],
+  "answer": 1,
+  "explain": "A restless searching for the absent beloved runs through the poem, expressing longing and the anxiety of love as much as its delight.",
+  "ref": "Song of Solomon 3:1",
+  "quote": "By night on my bed I sought him whom my soul loveth"
+ },
+ {
+  "id": "lam-004",
+  "book": "Lamentations",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "How does Lamentations end its plea to God?",
+  "options": [
+   "“Remember not our sins”",
+   "“Turn thou us unto thee… renew our days as of old”",
+   "“How long, O LORD?”",
+   "“Thy will be done”"
+  ],
+  "answer": 1,
+  "explain": "A closing prayer for restoration — that God would turn his people back to himself and renew their former days, tempering the book's grief with hope.",
+  "ref": "Lamentations 5:21",
+  "quote": "Turn thou us unto thee, O LORD, and we shall be turned"
+ },
+ {
+  "id": "gen-077",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "Which two of Jacob's sons avenged their sister Dinah by destroying Shechem?",
+  "options": [
+   "Reuben and Judah",
+   "Simeon and Levi",
+   "Dan and Naphtali",
+   "Gad and Asher"
+  ],
+  "answer": 1,
+  "explain": "Their violent revenge drew Jacob's rebuke then and a curse in his final blessing — ‘cursed be their anger.’ It scattered their descendants among Israel.",
+  "ref": "Genesis 34:25"
+ },
+ {
+  "id": "gen-078",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "How did Jacob bless Joseph's sons Ephraim and Manasseh?",
+  "options": [
+   "He blessed only the elder",
+   "He crossed his hands, giving the elder's blessing to the younger Ephraim",
+   "He refused to bless them",
+   "He blessed them equally"
+  ],
+  "answer": 1,
+  "explain": "Crossing his hands deliberately, the blind Jacob set the younger above the elder — continuing Genesis's pattern of reversing natural birth order.",
+  "ref": "Genesis 48:14"
+ },
+ {
+  "id": "exo-054",
+  "book": "Exodus",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What two figures were placed on the mercy seat over the ark?",
+  "options": [
+   "Two lions",
+   "Two cherubim of gold",
+   "Two doves",
+   "Two oxen"
+  ],
+  "answer": 1,
+  "explain": "The cherubim faced each other with wings spread over the mercy seat, where God said he would meet with Moses — the focal point of the tabernacle's holiness.",
+  "ref": "Exodus 25:18"
+ },
+ {
+  "id": "lev-018",
+  "book": "Leviticus",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What was the peace offering distinctive for, among the offerings?",
+  "options": [
+   "It was wholly burned",
+   "Part was eaten in a shared meal by the worshipper",
+   "It used no animal",
+   "It was offered only by priests"
+  ],
+  "answer": 1,
+  "explain": "Unlike the burnt offering consumed entirely, the peace (or fellowship) offering was shared — a communal meal expressing restored relationship with God.",
+  "ref": "Leviticus 7:15"
+ },
+ {
+  "id": "num-024",
+  "book": "Numbers",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What was the red heifer used for in Numbers?",
+  "options": [
+   "A burnt offering",
+   "Its ashes made the water of purification for cleansing from contact with death",
+   "A peace offering",
+   "A guilt offering"
+  ],
+  "answer": 1,
+  "explain": "An unusual rite: the heifer was burned wholly outside the camp and its ashes mixed with water to cleanse those defiled by a corpse.",
+  "ref": "Numbers 19:9"
+ },
+ {
+  "id": "deu-018",
+  "book": "Deuteronomy",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What limits did Deuteronomy place on a future king of Israel?",
+  "options": [
+   "He must be a Levite",
+   "He must not multiply horses, wives, or silver and gold to himself",
+   "He must never go to war",
+   "He must live in the temple"
+  ],
+  "answer": 1,
+  "explain": "The law of the king foresaw the monarchy and guarded against its excess — restrictions Solomon would later break on every count.",
+  "ref": "Deuteronomy 17:16"
+ },
+ {
+  "id": "jos-020",
+  "book": "Joshua",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "How was the promised land distributed among the tribes?",
+  "options": [
+   "By conquest order",
+   "By lot before the LORD",
+   "By the elders' vote",
+   "By age of the tribe"
+  ],
+  "answer": 1,
+  "explain": "The land was apportioned by lot at Shiloh, with Levi receiving cities rather than a territory, and Joseph's portion split between Ephraim and Manasseh.",
+  "ref": "Joshua 18:10"
+ },
+ {
+  "id": "jdg-019",
+  "book": "Judges",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "How does the grim account of the Levite's concubine set up the book's end?",
+  "options": [
+   "It leads to civil war against the tribe of Benjamin",
+   "It brings a new judge to power",
+   "It restores the ark",
+   "It ends the era of judges peacefully"
+  ],
+  "answer": 0,
+  "explain": "The atrocity at Gibeah provoked the other tribes to near-destroy Benjamin — a descent into chaos illustrating the refrain that everyone did what was right in his own eyes.",
+  "ref": "Judges 20:1"
+ },
+ {
+  "id": "1ki-027",
+  "book": "1 Kings",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "Where was David buried?",
+  "options": [
+   "In Hebron",
+   "In the city of David",
+   "On Mount Nebo",
+   "At Bethlehem"
+  ],
+  "answer": 1,
+  "explain": "‘David slept with his fathers, and was buried in the city of David’ — Jerusalem, the capital he had established. Solomon then reigned in his place.",
+  "ref": "1 Kings 2:10"
+ },
+ {
+  "id": "gen-079",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "easy",
+  "q": "What did God make on the fourth day of creation?",
+  "options": [
+   "Plants",
+   "Two great lights — the sun and the moon",
+   "Fish and birds",
+   "Land animals"
+  ],
+  "answer": 1,
+  "explain": "The greater light to rule the day and the lesser to rule the night, along with the stars — though light itself had appeared on day one.",
+  "ref": "Genesis 1:16"
+ },
+ {
+  "id": "gen-080",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "easy",
+  "q": "On which day were fish and birds created?",
+  "options": [
+   "The third day",
+   "The fifth day",
+   "The sixth day",
+   "The seventh day"
+  ],
+  "answer": 1,
+  "explain": "The waters brought forth living creatures and birds flew above the earth on day five; land animals and humans came on day six.",
+  "ref": "Genesis 1:20"
+ },
+ {
+  "id": "gen-081",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "What did God do on the seventh day?",
+  "options": [
+   "Created the stars",
+   "Blessed and sanctified it, resting from his work",
+   "Formed the animals",
+   "Planted the garden"
+  ],
+  "answer": 1,
+  "explain": "God rested and hallowed the day — the pattern later commanded as the sabbath. Rest is presented as the crown of creation, not an afterthought.",
+  "ref": "Genesis 2:3",
+  "quote": "And God blessed the seventh day, and sanctified it"
+ },
+ {
+  "id": "gen-082",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "What does Genesis say a man shall do, cleaving to his wife?",
+  "options": [
+   "Leave his father and his mother",
+   "Build a house",
+   "Take a new name",
+   "Offer a sacrifice"
+  ],
+  "answer": 0,
+  "explain": "‘They shall be one flesh.’ The verse, spoken at the creation of woman, is quoted by Jesus on marriage in the Gospels.",
+  "ref": "Genesis 2:24",
+  "quote": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife"
+ },
+ {
+  "id": "gen-083",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "What was God's first command to Abram?",
+  "options": [
+   "“Build an altar”",
+   "“Get thee out of thy country… unto a land that I will shew thee”",
+   "“Number the stars”",
+   "“Offer thy son”"
+  ],
+  "answer": 1,
+  "explain": "The call to leave home for an unnamed land launches the whole story of Israel — a journey begun on the strength of a promise.",
+  "ref": "Genesis 12:1",
+  "quote": "Get thee out of thy country"
+ },
+ {
+  "id": "gen-084",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "Why was Esau given his name at birth?",
+  "options": [
+   "He grasped his brother's heel",
+   "He came out red, all over like a hairy garment",
+   "He was born laughing",
+   "He cried loudly"
+  ],
+  "answer": 1,
+  "explain": "His ruddy, hairy appearance gave the name; he is also called Edom (‘red’) after the red pottage he traded his birthright for. Jacob is the one who grasped the heel.",
+  "ref": "Genesis 25:25"
+ },
+ {
+  "id": "gen-085",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What did Jacob name the place where he dreamed of the ladder?",
+  "options": [
+   "Peniel",
+   "Bethel",
+   "Mahanaim",
+   "Beersheba"
+  ],
+  "answer": 1,
+  "explain": "Bethel means ‘house of God’; the town had been called Luz. Peniel is where he later wrestled through the night.",
+  "ref": "Genesis 28:19"
+ },
+ {
+  "id": "exo-055",
+  "book": "Exodus",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "What does the name “Moses” reflect, per the reason Pharaoh's daughter gave?",
+  "options": [
+   "“Gift of the Nile”",
+   "That she drew him out of the water",
+   "“Child of the reeds”",
+   "“Saved from the sword”"
+  ],
+  "answer": 1,
+  "explain": "The name is linked to being drawn out — fitting for a life that would draw a whole people out of Egypt through the sea.",
+  "ref": "Exodus 2:10"
+ },
+ {
+  "id": "exo-056",
+  "book": "Exodus",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "Who were the parents of Aaron and Moses?",
+  "options": [
+   "Amram and Jochebed",
+   "Terah and Sarah",
+   "Hur and Miriam",
+   "Eleazar and Zipporah"
+  ],
+  "answer": 0,
+  "explain": "Both of the tribe of Levi. Their daughter Miriam completes the trio of siblings who led Israel out of Egypt.",
+  "ref": "Exodus 6:20"
+ },
+ {
+  "id": "exo-057",
+  "book": "Exodus",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "How do the Ten Commandments begin, before the first command?",
+  "options": [
+   "“Hear, O Israel”",
+   "“I am the LORD thy God, which brought thee out of the land of Egypt”",
+   "“Thus saith the LORD”",
+   "“Blessed are they that keep”"
+  ],
+  "answer": 1,
+  "explain": "The commands are grounded first in what God has done — deliverance from slavery — before what he requires. Grace precedes law in the very structure.",
+  "ref": "Exodus 20:2",
+  "quote": "I am the LORD thy God, which have brought thee out of the land of Egypt"
+ },
+ {
+  "id": "exo-058",
+  "book": "Exodus",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "Of what material was the tabernacle's lampstand (candlestick) to be made?",
+  "options": [
+   "Bronze",
+   "Pure gold, of beaten work",
+   "Silver",
+   "Cedar overlaid with gold"
+  ],
+  "answer": 1,
+  "explain": "A single piece of hammered pure gold with seven lamps — the menorah that gave light in the holy place. It became an enduring symbol of Israel.",
+  "ref": "Exodus 25:31"
+ },
+ {
+  "id": "lev-019",
+  "book": "Leviticus",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "On what day of the first month did the LORD's Passover fall?",
+  "options": [
+   "The first",
+   "The tenth",
+   "The fourteenth",
+   "The last"
+  ],
+  "answer": 2,
+  "explain": "The fourteenth day at evening, followed by the feast of unleavened bread — the yearly memorial of the exodus from Egypt.",
+  "ref": "Leviticus 23:5",
+  "quote": "In the fourteenth day of the first month at even is the LORD’s passover."
+ },
+ {
+  "id": "num-025",
+  "book": "Numbers",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "What was a Nazarite vow, as defined in Numbers?",
+  "options": [
+   "A vow of poverty",
+   "A vow of special separation to the LORD, abstaining from wine and the razor",
+   "A vow of silence",
+   "A priestly ordination"
+  ],
+  "answer": 1,
+  "explain": "For its duration the Nazarite drank no wine, cut no hair, and avoided the dead. Samson and Samuel were lifelong Nazarites.",
+  "ref": "Numbers 6:2"
+ },
+ {
+  "id": "num-026",
+  "book": "Numbers",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "How many men were sent to spy out the land of Canaan?",
+  "options": [
+   "Seven",
+   "Ten",
+   "Twelve",
+   "Forty"
+  ],
+  "answer": 2,
+  "explain": "One leader from each tribe. Ten brought a fearful report; only Joshua and Caleb urged Israel to go up and take the land.",
+  "ref": "Numbers 13:2"
+ },
+ {
+  "id": "deu-019",
+  "book": "Deuteronomy",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What does Deuteronomy say to bind as a sign on the hand and between the eyes?",
+  "options": [
+   "A seal of the covenant",
+   "God's words",
+   "A mark of the tribe",
+   "The names of the patriarchs"
+  ],
+  "answer": 1,
+  "explain": "The instruction, following the Shema, gave rise to the practice of tefillin (phylacteries) — small boxes of Scripture worn in prayer.",
+  "ref": "Deuteronomy 6:8",
+  "quote": "thou shalt bind them for a sign upon thine hand"
+ },
+ {
+  "id": "deu-020",
+  "book": "Deuteronomy",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What does Deuteronomy warn Israel to remember about their wealth?",
+  "options": [
+   "That it is fleeting",
+   "That it is the LORD who gives the power to get wealth",
+   "That it belongs to the king",
+   "That it must be buried"
+  ],
+  "answer": 1,
+  "explain": "A guard against the pride of thinking ‘my own hand hath gotten me this’ — prosperity was to prompt gratitude, not self-congratulation.",
+  "ref": "Deuteronomy 8:18",
+  "quote": "it is he that giveth thee power to get wealth"
+ },
+ {
+  "id": "jos-021",
+  "book": "Joshua",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "Whom did Joshua send to spy out Jericho?",
+  "options": [
+   "Two men",
+   "Twelve men",
+   "Caleb alone",
+   "Forty men"
+  ],
+  "answer": 0,
+  "explain": "The two spies were hidden by Rahab, who bargained for her family's safety with the scarlet cord in her window.",
+  "ref": "Joshua 2:1"
+ },
+ {
+  "id": "jos-022",
+  "book": "Joshua",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "How long did Israel remain faithful, according to the end of Joshua?",
+  "options": [
+   "Only one year",
+   "All the days of Joshua and the elders who outlived him",
+   "Until the temple was built",
+   "Throughout the monarchy"
+  ],
+  "answer": 1,
+  "explain": "Faithfulness lasted a generation; the book of Judges then opens with the decline that followed once that generation passed away.",
+  "ref": "Joshua 24:31"
+ },
+ {
+  "id": "jdg-020",
+  "book": "Judges",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What did Deborah tell Barak would happen because he insisted she come to battle?",
+  "options": [
+   "He would be wounded",
+   "The honour of the victory would go to a woman",
+   "He would be made king",
+   "The battle would be lost"
+  ],
+  "answer": 1,
+  "explain": "Sisera fell not to Barak but to Jael, who drove a tent peg through the sleeping general — fulfilling Deborah's word.",
+  "ref": "Judges 4:9"
+ },
+ {
+  "id": "rut-008",
+  "book": "Ruth",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "Who were Naomi's two Moabite daughters-in-law?",
+  "options": [
+   "Orpah and Ruth",
+   "Leah and Rachel",
+   "Mahlon and Chilion",
+   "Hannah and Peninnah"
+  ],
+  "answer": 0,
+  "explain": "Orpah turned back to Moab; Ruth clung to Naomi with the famous vow. Mahlon and Chilion were Naomi's sons, the women's late husbands.",
+  "ref": "Ruth 1:4"
+ },
+ {
+  "id": "1sa-030",
+  "book": "1 Samuel",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "What did Hannah vow concerning the son she prayed for?",
+  "options": [
+   "To name him after the priest",
+   "To give him to the LORD all the days of his life",
+   "To make him a king",
+   "To keep him always at home"
+  ],
+  "answer": 1,
+  "explain": "Samuel was dedicated to the LORD's service and no razor would touch his head. She brought him to Eli once he was weaned.",
+  "ref": "1 Samuel 1:11"
+ },
+ {
+  "id": "1sa-031",
+  "book": "1 Samuel",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "How did God interpret Israel's demand for a king, to Samuel?",
+  "options": [
+   "As wisdom",
+   "As a rejection of God himself as their king",
+   "As faith",
+   "As rebellion against Samuel alone"
+  ],
+  "answer": 1,
+  "explain": "‘They have not rejected thee, but they have rejected me, that I should not reign over them.’ The monarchy is granted, but framed as a turning from God's direct rule.",
+  "ref": "1 Samuel 8:7",
+  "quote": "they have not rejected thee, but they have rejected me"
+ },
+ {
+  "id": "1sa-032",
+  "book": "1 Samuel",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "Whose soul was “knit” with David's after the defeat of Goliath?",
+  "options": [
+   "Saul's",
+   "Jonathan's",
+   "Samuel's",
+   "Abner's"
+  ],
+  "answer": 1,
+  "explain": "Jonathan loved David as his own soul and made a covenant with him, giving him his own robe and weapons — the start of a famous friendship.",
+  "ref": "1 Samuel 18:1",
+  "quote": "the soul of Jonathan was knit with the soul of David"
+ },
+ {
+  "id": "2sa-019",
+  "book": "2 Samuel",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "Where did the elders of Israel anoint David king over all the nation?",
+  "options": [
+   "Jerusalem",
+   "Hebron",
+   "Bethlehem",
+   "Gibeon"
+  ],
+  "answer": 1,
+  "explain": "At Hebron, by covenant with the elders, David became king over all Israel after ruling Judah alone there for seven years. He soon took Jerusalem as his capital.",
+  "ref": "2 Samuel 5:3"
+ },
+ {
+  "id": "2sa-020",
+  "book": "2 Samuel",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "How did David arrange for Uriah's death?",
+  "options": [
+   "By poison",
+   "By ordering him set in the forefront of the hottest battle, then abandoned",
+   "By sending assassins",
+   "By exile"
+  ],
+  "answer": 1,
+  "explain": "The letter carried by Uriah himself sealed his fate, to cover David's sin with Bathsheba. Nathan's parable and rebuke followed.",
+  "ref": "2 Samuel 11:15"
+ },
+ {
+  "id": "1ki-028",
+  "book": "1 Kings",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What was unusual about how the temple was constructed?",
+  "options": [
+   "It was built in a single day",
+   "No hammer or axe was heard at the site, the stones being prepared beforehand",
+   "It used no stone at all",
+   "It was built underground"
+  ],
+  "answer": 1,
+  "explain": "The stones were finished at the quarry so that the house rose in reverent silence — a detail often read as fitting for a place of worship.",
+  "ref": "1 Kings 6:7"
+ },
+ {
+  "id": "1ki-029",
+  "book": "1 Kings",
+  "section": "Historical",
+  "difficulty": "easy",
+  "q": "How does 1 Kings sum up Solomon among the kings of the earth?",
+  "options": [
+   "He was the most feared",
+   "He exceeded all for riches and for wisdom",
+   "He reigned the longest",
+   "He conquered the most land"
+  ],
+  "answer": 1,
+  "explain": "His fame drew visitors from far away, including the queen of Sheba, and made Jerusalem a centre of wealth and learning in his day.",
+  "ref": "1 Kings 10:23",
+  "quote": "Solomon exceeded all the kings of the earth for riches and for wisdom"
+ },
+ {
+  "id": "2ki-024",
+  "book": "2 Kings",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "How did Elisha help the widow drowning in debt?",
+  "options": [
+   "He gave her silver",
+   "He multiplied her single pot of oil to fill many vessels",
+   "He forgave the creditor",
+   "He found her a husband"
+  ],
+  "answer": 1,
+  "explain": "The oil kept flowing until the borrowed vessels ran out; she sold it to pay the debt and live on the rest — one of Elisha's quiet domestic miracles.",
+  "ref": "2 Kings 4:1"
+ },
+ {
+  "id": "2ki-025",
+  "book": "2 Kings",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What was done to Zedekiah, the last king of Judah, when Jerusalem fell?",
+  "options": [
+   "He was crowned in Babylon",
+   "His sons were killed before him, then his eyes were put out",
+   "He was set free",
+   "He fled to Egypt"
+  ],
+  "answer": 1,
+  "explain": "The last thing he saw was his sons' deaths; then he was blinded and taken to Babylon in chains — the grim end of the Davidic monarchy in Jerusalem.",
+  "ref": "2 Kings 25:7"
+ },
+ {
+  "id": "ezr-006",
+  "book": "Ezra",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "Whose prophecy does Ezra say Cyrus's decree fulfilled?",
+  "options": [
+   "Isaiah's",
+   "Jeremiah's",
+   "Ezekiel's",
+   "Daniel's"
+  ],
+  "answer": 1,
+  "explain": "Jeremiah had foretold seventy years of exile; Cyrus's proclamation, stirred by the LORD, opened the way home right on that timeline.",
+  "ref": "Ezra 1:1"
+ },
+ {
+  "id": "neh-008",
+  "book": "Nehemiah",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "What did Nehemiah, cupbearer to the king, request?",
+  "options": [
+   "Gold for the temple",
+   "To be sent to Judah to rebuild the city of his fathers",
+   "A royal title",
+   "An army"
+  ],
+  "answer": 1,
+  "explain": "He prayed, then asked the Persian king for leave and letters to rebuild Jerusalem's wall — a bold request from a servant, granted by God's favour.",
+  "ref": "Nehemiah 2:5"
+ },
+ {
+  "id": "est-008",
+  "book": "Esther",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "What was Esther's relationship to Mordecai?",
+  "options": [
+   "His sister",
+   "His cousin, whom he raised as his own after her parents died",
+   "His daughter",
+   "His wife"
+  ],
+  "answer": 1,
+  "explain": "Esther (Hadassah) was an orphaned cousin Mordecai brought up. He counselled her through the crisis with Haman from just outside the palace.",
+  "ref": "Esther 2:7"
+ },
+ {
+  "id": "psa-031",
+  "book": "Psalms",
+  "section": "Wisdom",
+  "difficulty": "medium",
+  "q": "How does Psalm 14 begin?",
+  "options": [
+   "“The fool hath said in his heart, There is no God”",
+   "“Blessed is the man”",
+   "“The LORD is my shepherd”",
+   "“Praise ye the LORD”"
+  ],
+  "answer": 0,
+  "explain": "A meditation on human corruption when God is dismissed. Psalm 53 repeats it almost word for word, and Paul draws on it in Romans.",
+  "ref": "Psalms 14:1",
+  "quote": "The fool hath said in his heart, There is no God."
+ },
+ {
+  "id": "psa-032",
+  "book": "Psalms",
+  "section": "Wisdom",
+  "difficulty": "hard",
+  "q": "Which image from Psalm 118 is quoted about the rejected stone?",
+  "options": [
+   "“The stone which the builders refused is become the head stone of the corner”",
+   "“The rock of my salvation”",
+   "“A stone of stumbling”",
+   "“The cornerstone of Zion”"
+  ],
+  "answer": 0,
+  "explain": "A rejected stone becoming the cornerstone — applied in the Gospels to Christ. The other stone images are scriptural too, from Isaiah and elsewhere.",
+  "ref": "Psalms 118:22",
+  "quote": "The stone which the builders refused is become the head stone of the corner."
+ },
+ {
+  "id": "pro-018",
+  "book": "Proverbs",
+  "section": "Wisdom",
+  "difficulty": "easy",
+  "q": "Proverbs says a wise son makes a glad father, but a foolish son is what?",
+  "options": [
+   "A ruin to the house",
+   "The heaviness of his mother",
+   "A shame to the elders",
+   "A grief to the wise"
+  ],
+  "answer": 1,
+  "explain": "The opening proverb of the main collection, drawing the family consequences of wisdom and folly — a recurring theme of the book.",
+  "ref": "Proverbs 10:1",
+  "quote": "A wise son maketh a glad father: but a foolish son is the heaviness of his mother."
+ },
+ {
+  "id": "pro-019",
+  "book": "Proverbs",
+  "section": "Wisdom",
+  "difficulty": "medium",
+  "q": "Proverbs warns that wine is a mocker and strong drink is what?",
+  "options": [
+   "Sweet",
+   "Raging",
+   "A comfort",
+   "A reward"
+  ],
+  "answer": 1,
+  "explain": "‘Whosoever is deceived thereby is not wise.’ One of several proverbs cautioning against the false confidence and folly that drink can bring.",
+  "ref": "Proverbs 20:1",
+  "quote": "Wine is a mocker, strong drink is raging"
+ },
+ {
+  "id": "pro-020",
+  "book": "Proverbs",
+  "section": "Wisdom",
+  "difficulty": "medium",
+  "q": "According to Proverbs, the way of a fool is right in his own eyes, but the wise man does what?",
+  "options": [
+   "Keeps silence",
+   "Hearkens unto counsel",
+   "Seeks riches",
+   "Fears the king"
+  ],
+  "answer": 1,
+  "explain": "Teachability marks the wise; the fool trusts only his own judgment. The contrast between heeding counsel and self-reliance runs throughout the book.",
+  "ref": "Proverbs 12:15",
+  "quote": "he that hearkeneth unto counsel is wise"
+ },
+ {
+  "id": "isa-023",
+  "book": "Isaiah",
+  "section": "Prophets",
+  "difficulty": "medium",
+  "q": "Which Isaiah prophecy speaks of “a voice… in the wilderness, Prepare ye the way of the LORD”?",
+  "options": [
+   "Isaiah 40",
+   "Isaiah 6",
+   "Isaiah 53",
+   "Isaiah 9"
+  ],
+  "answer": 0,
+  "explain": "All four Gospels apply this verse to John the Baptist preparing the way for Jesus. It opens the great section of comfort in Isaiah.",
+  "ref": "Isaiah 40:3",
+  "quote": "Prepare ye the way of the LORD"
+ },
+ {
+  "id": "jer-013",
+  "book": "Jeremiah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What famous question does Jeremiah ask about Gilead?",
+  "options": [
+   "“Who shall go up for us?”",
+   "“Is there no balm in Gilead; is there no physician there?”",
+   "“Can these bones live?”",
+   "“How long, O LORD?”"
+  ],
+  "answer": 1,
+  "explain": "A lament over a wound that seems past healing — the prophet grieving that his people would not be restored. The phrase inspired a beloved spiritual.",
+  "ref": "Jeremiah 8:22",
+  "quote": "Is there no balm in Gilead; is there no physician there?"
+ },
+ {
+  "id": "dan-017",
+  "book": "Daniel",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What Babylonian name was given to Daniel?",
+  "options": [
+   "Belteshazzar",
+   "Abednego",
+   "Shadrach",
+   "Meshach"
+  ],
+  "answer": 0,
+  "explain": "Daniel was renamed Belteshazzar; his three friends became Shadrach, Meshach, and Abednego. The new names honoured Babylonian gods, part of the pressure to assimilate.",
+  "ref": "Daniel 1:7"
+ },
+ {
+  "id": "jon-007",
+  "book": "Jonah",
+  "section": "Prophets",
+  "difficulty": "easy",
+  "q": "To what great city was Jonah first told to go and cry against its wickedness?",
+  "options": [
+   "Babylon",
+   "Nineveh",
+   "Tarshish",
+   "Damascus"
+  ],
+  "answer": 1,
+  "explain": "Nineveh, the Assyrian capital. Jonah fled the opposite way toward Tarshish, setting the whole story in motion.",
+  "ref": "Jonah 1:2",
+  "quote": "Arise, go to Nineveh, that great city"
+ },
+ {
+  "id": "gen-086",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "What blessing did God give Noah and his sons after the flood?",
+  "options": [
+   "“Be fruitful, and multiply, and replenish the earth”",
+   "“Rule over the nations”",
+   "“Fear not”",
+   "“Keep my covenant”"
+  ],
+  "answer": 0,
+  "explain": "The same blessing given at creation is renewed after the flood — a fresh start for humanity through Noah's family.",
+  "ref": "Genesis 9:1",
+  "quote": "Be fruitful, and multiply, and replenish the earth"
+ },
+ {
+  "id": "gen-087",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What did God specifically say Sarah would bear, over Abraham's plea for Ishmael?",
+  "options": [
+   "A daughter",
+   "A son named Isaac, with whom the covenant would be established",
+   "Twins",
+   "No child"
+  ],
+  "answer": 1,
+  "explain": "Ishmael would be blessed and made a great nation, but the covenant line would run through Isaac, the son of promise born to Sarah.",
+  "ref": "Genesis 17:19",
+  "quote": "Sarah thy wife shall bear thee a son indeed; and thou shalt call his name Isaac"
+ },
+ {
+  "id": "exo-059",
+  "book": "Exodus",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "What claim did God make on Israel's firstborn after the exodus?",
+  "options": [
+   "They were to be sold",
+   "They were to be sanctified, set apart as his",
+   "They were to be numbered only",
+   "They were exempt from service"
+  ],
+  "answer": 1,
+  "explain": "Because the firstborn of Israel were spared in the final plague, they belonged to God — later redeemed or replaced by the Levites' service.",
+  "ref": "Exodus 13:2",
+  "quote": "Sanctify unto me all the firstborn"
+ },
+ {
+  "id": "exo-060",
+  "book": "Exodus",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "What guided Israel throughout their wilderness journeys, per the end of Exodus?",
+  "options": [
+   "A star",
+   "A cloud by day and fire by night over the tabernacle",
+   "The staff of Moses",
+   "The ark alone"
+  ],
+  "answer": 1,
+  "explain": "The visible presence over the tabernacle set the pace of every journey — they moved when it lifted and stayed when it settled.",
+  "ref": "Exodus 40:38"
+ },
+ {
+  "id": "lev-020",
+  "book": "Leviticus",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What did the burnt offering require of the animal brought?",
+  "options": [
+   "That it be female",
+   "That it be a male without blemish",
+   "That it be young only",
+   "That it be wild"
+  ],
+  "answer": 1,
+  "explain": "A male without blemish, wholly consumed on the altar — the completeness of the offering symbolizing total devotion to God.",
+  "ref": "Leviticus 1:3",
+  "quote": "let him offer a male without blemish"
+ },
+ {
+  "id": "num-027",
+  "book": "Numbers",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "Whom did Moses invite to journey with Israel, saying “we will do thee good”?",
+  "options": [
+   "Balaam",
+   "Hobab, his Midianite kinsman",
+   "Caleb",
+   "Aaron"
+  ],
+  "answer": 1,
+  "explain": "Moses asked his father-in-law's relative, familiar with the desert, to be their eyes on the journey — a rare glimpse of practical travel planning.",
+  "ref": "Numbers 10:29"
+ },
+ {
+  "id": "jos-023",
+  "book": "Joshua",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "What did the LORD tell Joshua before the fall of Jericho?",
+  "options": [
+   "“Flee the city”",
+   "“I have given into thine hand Jericho”",
+   "“Build an altar first”",
+   "“Wait seven years”"
+  ],
+  "answer": 1,
+  "explain": "Victory was declared before the march even began; Israel's part was the strange obedience of circling the walls, and God's part was the collapse.",
+  "ref": "Joshua 6:2",
+  "quote": "I have given into thine hand Jericho"
+ },
+ {
+  "id": "jdg-021",
+  "book": "Judges",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "How does the book of Judges open, after Joshua's death?",
+  "options": [
+   "With a coronation",
+   "With Israel asking the LORD who should go up first against the Canaanites",
+   "With a famine",
+   "With the building of an altar"
+  ],
+  "answer": 1,
+  "explain": "The unfinished conquest is the book's starting point; Judah is sent up first. The incomplete obedience there sets up the cycles that follow.",
+  "ref": "Judges 1:1"
+ },
+ {
+  "id": "1ki-030",
+  "book": "1 Kings",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "How long did Solomon's temple take, and where was it built?",
+  "options": [
+   "Twenty years, in Hebron",
+   "Seven years, in Jerusalem",
+   "One year, in Gibeon",
+   "Forty years, in Shiloh"
+  ],
+  "answer": 1,
+  "explain": "Seven years of building on Mount Moriah in Jerusalem, followed by a grand dedication when the glory-cloud filled the house.",
+  "ref": "1 Kings 6:38"
+ },
+ {
+  "id": "2ki-026",
+  "book": "2 Kings",
+  "section": "Historical",
+  "difficulty": "medium",
+  "q": "How is Naaman introduced before his healing?",
+  "options": [
+   "A king of Syria",
+   "A great and honourable captain of Syria's army, but a leper",
+   "A prophet of Baal",
+   "A merchant of Damascus"
+  ],
+  "answer": 1,
+  "explain": "His high standing made his affliction the more striking; his cure came through the word of a captive Israelite girl and the prophet Elisha.",
+  "ref": "2 Kings 5:1"
+ },
+ {
+  "id": "psa-033",
+  "book": "Psalms",
+  "section": "Wisdom",
+  "difficulty": "easy",
+  "q": "Psalm 47 opens with a call to do what unto God?",
+  "options": [
+   "Bow down",
+   "Clap your hands and shout with triumph",
+   "Keep silence",
+   "Fast and pray"
+  ],
+  "answer": 1,
+  "explain": "A psalm celebrating God as king over all the earth — joyful, exuberant worship with clapping and shouting.",
+  "ref": "Psalms 47:1",
+  "quote": "O clap your hands, all ye people; shout unto God with the voice of triumph"
+ },
+ {
+  "id": "dan-018",
+  "book": "Daniel",
+  "section": "Prophets",
+  "difficulty": "medium",
+  "q": "What did Daniel foretell would happen to proud King Nebuchadnezzar?",
+  "options": [
+   "He would lose his throne to Persia",
+   "He would be driven from men to live and eat as the beasts",
+   "He would be blinded",
+   "He would die in battle"
+  ],
+  "answer": 1,
+  "explain": "For seven times he would live as an animal until he acknowledged that heaven rules — a humbling that came to pass and from which he recovered.",
+  "ref": "Daniel 4:25"
+ },
+ {
+  "id": "pro-021",
+  "book": "Proverbs",
+  "section": "Wisdom",
+  "difficulty": "hard",
+  "q": "Whose proverbs make up the main collection of the book of Proverbs?",
+  "options": [
+   "David's",
+   "Solomon's",
+   "Agur's",
+   "Lemuel's"
+  ],
+  "answer": 1,
+  "explain": "Solomon is named as the primary author, though the book also gathers sayings of Agur and King Lemuel near its close. His wisdom was proverbial in every sense.",
+  "ref": "Proverbs 10:1"
+ },
+ {
+  "id": "exo-061",
+  "book": "Exodus",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "Where did the LORD descend to give Moses the law?",
+  "options": [
+   "Mount Nebo",
+   "Mount Sinai",
+   "Mount Carmel",
+   "Mount Zion"
+  ],
+  "answer": 1,
+  "explain": "On the top of Sinai (also called Horeb), amid thunder, smoke, and trumpet blast, God called Moses up to receive the commandments.",
+  "ref": "Exodus 19:20"
+ },
+ {
+  "id": "1sa-033",
+  "book": "1 Samuel",
+  "section": "Historical",
+  "difficulty": "easy",
+  "q": "What did the boy Samuel do in the temple that God's people had rarely known in those days?",
+  "options": [
+   "Offer sacrifice",
+   "Hear the word of the LORD, who called him by name",
+   "Anoint a king",
+   "Read the law"
+  ],
+  "answer": 1,
+  "explain": "The word of the LORD was rare then; God's calling of the boy Samuel marked the return of the prophetic voice to Israel.",
+  "ref": "1 Samuel 3:4"
+ },
+ {
+  "id": "deu-021",
+  "book": "Deuteronomy",
+  "section": "Torah",
+  "difficulty": "medium",
+  "q": "Where did Moses die, according to Deuteronomy?",
+  "options": [
+   "In Canaan",
+   "In the land of Moab",
+   "In Egypt",
+   "At Sinai"
+  ],
+  "answer": 1,
+  "explain": "He died in Moab, in sight of the promised land he could not enter, and the LORD buried him in a valley whose location no one knows.",
+  "ref": "Deuteronomy 34:5"
+ },
+ {
+  "id": "gen-088",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "How many rivers parted from the river that watered Eden?",
+  "options": [
+   "Two",
+   "Four",
+   "Seven",
+   "Twelve"
+  ],
+  "answer": 1,
+  "explain": "Four rivers — Pison, Gihon, Hiddekel (Tigris), and Euphrates. Two of the four are still identifiable today, anchoring Eden loosely in the ancient Near East.",
+  "ref": "Genesis 2:11"
+ },
+ {
+  "id": "gen-089",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "Who is called “a mighty one in the earth” and a mighty hunter before the LORD?",
+  "options": [
+   "Nimrod",
+   "Cush",
+   "Peleg",
+   "Lamech"
+  ],
+  "answer": 0,
+  "explain": "Nimrod, associated with Babel and the founding of great cities like Nineveh, is the Bible's first named empire-builder.",
+  "ref": "Genesis 10:8"
+ },
+ {
+  "id": "gen-090",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What were the “giants in the earth in those days” called?",
+  "options": [
+   "Rephaim",
+   "Nephilim",
+   "Anakim",
+   "Emim"
+  ],
+  "answer": 1,
+  "explain": "The Nephilim appear in the mysterious passage before the flood about the sons of God and daughters of men. The Anakim and Rephaim are later peoples described as giants.",
+  "ref": "Genesis 6:4"
+ },
+ {
+  "id": "gen-091",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What name did the dying Rachel give her second son, which Jacob changed?",
+  "options": [
+   "Benoni, changed to Benjamin",
+   "Reuben, changed to Levi",
+   "Dan, changed to Gad",
+   "Joseph, changed to Ephraim"
+  ],
+  "answer": 0,
+  "explain": "She named him Benoni, ‘son of my sorrow,’ as she died in childbirth; Jacob renamed him Benjamin, ‘son of the right hand.’",
+  "ref": "Genesis 35:18"
+ },
+ {
+  "id": "gen-092",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "Why did Reuben lose the pre-eminence of the firstborn?",
+  "options": [
+   "He fled in battle",
+   "He defiled his father's bed",
+   "He worshipped idols",
+   "He sold the birthright"
+  ],
+  "answer": 1,
+  "explain": "Jacob's deathbed blessing calls him ‘unstable as water’ and withholds excellence because of his sin with Bilhah. The birthright privileges passed to others.",
+  "ref": "Genesis 49:4",
+  "quote": "Unstable as water, thou shalt not excel"
+ },
+ {
+  "id": "gen-093",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "Whom did Pharaoh give Joseph as a wife?",
+  "options": [
+   "Zipporah",
+   "Asenath, daughter of a priest of On",
+   "Keturah",
+   "Tamar"
+  ],
+  "answer": 1,
+  "explain": "Along with the Egyptian name Zaphnath-paaneah, Joseph received Asenath, who bore him Manasseh and Ephraim — whose tribes became major in Israel.",
+  "ref": "Genesis 41:45"
+ },
+ {
+  "id": "exo-062",
+  "book": "Exodus",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What were the names of the Hebrew midwives who defied Pharaoh?",
+  "options": [
+   "Shiphrah and Puah",
+   "Jochebed and Miriam",
+   "Zipporah and Elisheba",
+   "Rahab and Deborah"
+  ],
+  "answer": 0,
+  "explain": "They feared God and refused to kill the Hebrew boys, and God dealt well with them — an early act of civil disobedience honoured in Scripture.",
+  "ref": "Exodus 1:15"
+ },
+ {
+  "id": "exo-063",
+  "book": "Exodus",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What name did Moses give the altar after defeating Amalek?",
+  "options": [
+   "Jehovah-jireh",
+   "Jehovah-nissi",
+   "Jehovah-shalom",
+   "Ebenezer"
+  ],
+  "answer": 1,
+  "explain": "Jehovah-nissi means ‘the LORD my banner.’ Jehovah-jireh (‘the LORD will provide’) is from Mount Moriah; Jehovah-shalom is Gideon's altar.",
+  "ref": "Exodus 17:15"
+ },
+ {
+  "id": "exo-064",
+  "book": "Exodus",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "How many stones were set in the high priest's breastplate, and how arranged?",
+  "options": [
+   "Ten stones in two rows",
+   "Twelve stones in four rows",
+   "Seven stones in a circle",
+   "Two stones on the shoulders"
+  ],
+  "answer": 1,
+  "explain": "Twelve precious stones in four rows of three, each engraved with a tribe's name — the priest bearing all Israel over his heart before God.",
+  "ref": "Exodus 28:17"
+ },
+ {
+  "id": "exo-065",
+  "book": "Exodus",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What was the “atonement money” each Israelite paid when numbered?",
+  "options": [
+   "A full shekel",
+   "Half a shekel",
+   "A gold ring",
+   "A tenth of a sheep"
+  ],
+  "answer": 1,
+  "explain": "The half-shekel was the same for rich and poor — a ransom for the soul that funded the tabernacle service and taught the equal value of each life before God.",
+  "ref": "Exodus 30:13"
+ },
+ {
+  "id": "lev-021",
+  "book": "Leviticus",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "Why does Leviticus say the land could not be sold permanently?",
+  "options": [
+   "Because the tribes were equal",
+   "Because the land is the LORD's, and Israel were strangers and sojourners with him",
+   "Because kings owned it",
+   "Because it was unmeasured"
+  ],
+  "answer": 1,
+  "explain": "The Jubilee laws rest on this: the land belonged to God, and Israel merely held it as tenants — which is why it always reverted to its families.",
+  "ref": "Leviticus 25:23",
+  "quote": "the land is mine; for ye are strangers and sojourners with me"
+ },
+ {
+  "id": "num-028",
+  "book": "Numbers",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "How many elders did God have Moses gather to share the burden of leadership?",
+  "options": [
+   "Twelve",
+   "Forty",
+   "Seventy",
+   "A hundred"
+  ],
+  "answer": 2,
+  "explain": "God put his Spirit on the seventy, and they prophesied. Two who stayed in the camp, Eldad and Medad, prophesied too, prompting Moses' wish that all God's people were prophets.",
+  "ref": "Numbers 11:16"
+ },
+ {
+  "id": "num-029",
+  "book": "Numbers",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "Whose zealous act turned away God's wrath during a plague at Baal-peor?",
+  "options": [
+   "Joshua's",
+   "Phinehas's",
+   "Caleb's",
+   "Eleazar's"
+  ],
+  "answer": 1,
+  "explain": "Phinehas, Aaron's grandson, stopped the plague by his decisive action and was granted a covenant of perpetual priesthood for his zeal.",
+  "ref": "Numbers 25:11",
+  "quote": "hath turned my wrath away from the children of Israel"
+ },
+ {
+  "id": "deu-022",
+  "book": "Deuteronomy",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "Which practices does Deuteronomy forbid as abominations of the nations?",
+  "options": [
+   "Farming and trade",
+   "Passing children through fire, divination, and consulting familiar spirits",
+   "Building altars",
+   "Keeping festivals"
+  ],
+  "answer": 1,
+  "explain": "Israel was to be free of the occult and child sacrifice that marked Canaanite religion — seeking God's guidance instead through his appointed prophets.",
+  "ref": "Deuteronomy 18:10"
+ },
+ {
+  "id": "deu-023",
+  "book": "Deuteronomy",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What law about oxen does Deuteronomy give, later cited by Paul about supporting workers?",
+  "options": [
+   "“Thou shalt not yoke ox and ass together”",
+   "“Thou shalt not muzzle the ox when he treadeth out the corn”",
+   "“The firstborn ox is the LORD's”",
+   "“Thou shalt rest thine ox on the sabbath”"
+  ],
+  "answer": 1,
+  "explain": "An animal treading grain could eat as it worked; Paul applies the principle to those who labour in ministry deserving support.",
+  "ref": "Deuteronomy 25:4",
+  "quote": "Thou shalt not muzzle the ox when he treadeth out the corn."
+ },
+ {
+  "id": "jos-024",
+  "book": "Joshua",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What happened to the manna once Israel entered Canaan?",
+  "options": [
+   "It increased",
+   "It ceased, once they ate the produce of the land",
+   "It turned bitter",
+   "It was stored in the ark"
+  ],
+  "answer": 1,
+  "explain": "The daily wilderness provision stopped when it was no longer needed; Israel now ate the old corn of the land they had entered.",
+  "ref": "Joshua 5:12"
+ },
+ {
+  "id": "jos-025",
+  "book": "Joshua",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What valley was named for the trouble Achan brought on Israel?",
+  "options": [
+   "The valley of Achor",
+   "The valley of Baca",
+   "The valley of Elah",
+   "The valley of Hinnom"
+  ],
+  "answer": 0,
+  "explain": "A great heap of stones was raised over Achan in the valley of Achor (‘trouble’). Hosea later speaks of that valley becoming a door of hope.",
+  "ref": "Joshua 7:26"
+ },
+ {
+  "id": "jos-026",
+  "book": "Joshua",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What prize did Caleb offer for capturing Kirjath-sepher, and who won it?",
+  "options": [
+   "Gold; Joshua",
+   "His daughter Achsah in marriage; Othniel",
+   "A city; Caleb himself",
+   "Cattle; Eleazar"
+  ],
+  "answer": 1,
+  "explain": "Othniel took the city and married Achsah — and later became the first of Israel's judges. A rare glimpse of family life amid the conquest.",
+  "ref": "Joshua 15:16"
+ },
+ {
+  "id": "jdg-022",
+  "book": "Judges",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What did the ephod Gideon made from the gold become?",
+  "options": [
+   "A treasure for the temple",
+   "A snare, which Israel went after in idolatry",
+   "A gift to the priests",
+   "A crown"
+  ],
+  "answer": 1,
+  "explain": "Meant perhaps as a memorial, it drew Israel into false worship — a sad coda to Gideon's victory, showing how quickly the people turned aside.",
+  "ref": "Judges 8:27"
+ },
+ {
+  "id": "jdg-023",
+  "book": "Judges",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "In Jotham's parable, which trees were asked to reign before the bramble accepted?",
+  "options": [
+   "The cedar, the palm, and the oak",
+   "The olive, the fig, and the vine",
+   "The willow, the almond, and the myrtle",
+   "The apple, the pomegranate, and the date"
+  ],
+  "answer": 1,
+  "explain": "The useful trees each declined to give up their fruit to rule; only the worthless bramble accepted — Jotham's biting commentary on Abimelech's kingship.",
+  "ref": "Judges 9:8"
+ },
+ {
+  "id": "jdg-024",
+  "book": "Judges",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What word betrayed the fleeing Ephraimites at the fords of Jordan?",
+  "options": [
+   "Shibboleth",
+   "Selah",
+   "Hallelujah",
+   "Maranatha"
+  ],
+  "answer": 0,
+  "explain": "Unable to pronounce the ‘sh,’ they said ‘Sibboleth’ and were caught. The word has entered English for a marker that distinguishes one group from another.",
+  "ref": "Judges 12:6"
+ },
+ {
+  "id": "1sa-034",
+  "book": "1 Samuel",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "Why were the men of Beth-shemesh struck down when the ark returned?",
+  "options": [
+   "They refused to receive it",
+   "They looked into the ark of the LORD",
+   "They sold it to the Philistines",
+   "They built a rival altar"
+  ],
+  "answer": 1,
+  "explain": "Their irreverent curiosity brought judgment; the survivors asked who could stand before such a holy God, and sent the ark on to Kirjath-jearim.",
+  "ref": "1 Samuel 6:19"
+ },
+ {
+  "id": "1sa-035",
+  "book": "1 Samuel",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "How did the people save Jonathan after he unknowingly broke Saul's oath?",
+  "options": [
+   "They hid him",
+   "They ransomed him, refusing to let him die",
+   "They fled with him",
+   "They appealed to Samuel"
+  ],
+  "answer": 1,
+  "explain": "Jonathan had won a great victory that day; the people would not let him be executed for eating honey in ignorance of the rash vow.",
+  "ref": "1 Samuel 14:45"
+ },
+ {
+  "id": "1sa-036",
+  "book": "1 Samuel",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What food did the priest give the fleeing David, which was normally reserved for priests?",
+  "options": [
+   "The Passover lamb",
+   "The hallowed shewbread",
+   "The firstfruits",
+   "The wave offering"
+  ],
+  "answer": 1,
+  "explain": "David ate the consecrated bread at Nob — an incident Jesus later cited when defending his disciples for plucking grain on the sabbath.",
+  "ref": "1 Samuel 21:6"
+ },
+ {
+  "id": "2sa-021",
+  "book": "2 Samuel",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "How did Joab kill Abner, Saul's former commander?",
+  "options": [
+   "In open battle",
+   "By taking him aside in the gate and smiting him privately",
+   "By poison",
+   "By ambush at night"
+  ],
+  "answer": 1,
+  "explain": "Joab avenged his brother Asahel's death by treachery, against David's peace with Abner. David publicly mourned Abner and disavowed the killing.",
+  "ref": "2 Samuel 3:27"
+ },
+ {
+  "id": "2sa-022",
+  "book": "2 Samuel",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "Whose counsel was esteemed “as if a man had enquired at the oracle of God”?",
+  "options": [
+   "Nathan's",
+   "Ahithophel's",
+   "Joab's",
+   "Hushai's"
+  ],
+  "answer": 1,
+  "explain": "Ahithophel's advice carried near-oracular weight — which is why his defection to Absalom was so dangerous, and his counsel's defeat so pivotal.",
+  "ref": "2 Samuel 16:23"
+ },
+ {
+  "id": "2sa-023",
+  "book": "2 Samuel",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "How did a wise woman end Sheba's revolt against David?",
+  "options": [
+   "She negotiated a treaty",
+   "She had Sheba's head thrown over the city wall to Joab",
+   "She raised an army",
+   "She hid the rebels"
+  ],
+  "answer": 1,
+  "explain": "To spare her besieged city of Abel, the woman persuaded the people to behead the rebel and cast his head out — wisdom averting slaughter.",
+  "ref": "2 Samuel 20:22"
+ },
+ {
+  "id": "1ki-031",
+  "book": "1 Kings",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What did the man of God from Judah prophesy against Jeroboam's altar, naming a future king?",
+  "options": [
+   "That Hezekiah would cleanse it",
+   "That a child named Josiah would be born to David's house and burn the priests upon it",
+   "That it would stand forever",
+   "That Elijah would destroy it"
+  ],
+  "answer": 1,
+  "explain": "The prophecy named Josiah centuries before his birth; 2 Kings records its fulfilment when Josiah desecrated the altar at Bethel.",
+  "ref": "1 Kings 13:2"
+ },
+ {
+  "id": "1ki-032",
+  "book": "1 Kings",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "Whom did Ahab marry, deepening Israel's turn to Baal?",
+  "options": [
+   "Athaliah",
+   "Jezebel, daughter of the king of the Zidonians",
+   "The queen of Sheba",
+   "Michal"
+  ],
+  "answer": 1,
+  "explain": "Jezebel promoted Baal worship and hunted the LORD's prophets, provoking Elijah's ministry. Her daughter Athaliah later seized Judah's throne.",
+  "ref": "1 Kings 16:31"
+ },
+ {
+  "id": "1ki-033",
+  "book": "1 Kings",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What proverb did Ahab send to the boasting Ben-hadad before battle?",
+  "options": [
+   "“Pride goeth before a fall”",
+   "“Let not him that girdeth on his harness boast as he that putteth it off”",
+   "“The race is not to the swift”",
+   "“A soft answer turneth away wrath”"
+  ],
+  "answer": 1,
+  "explain": "A soldier shouldn't boast while still arming for battle, only after surviving it — a wry warning before Israel's unexpected victory over the Syrians.",
+  "ref": "1 Kings 20:11",
+  "quote": "Let not him that girdeth on his harness boast himself as he that putteth it off"
+ },
+ {
+  "id": "2ki-027",
+  "book": "2 Kings",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What happened to the youths who mocked Elisha as “bald head”?",
+  "options": [
+   "They were struck blind",
+   "Two she-bears came out of the wood and tore forty-two of them",
+   "They fell sick",
+   "Nothing was recorded"
+  ],
+  "answer": 1,
+  "explain": "A stark judgment on contempt for God's prophet at Bethel, a centre of calf-worship — the mockery likely more than childish teasing.",
+  "ref": "2 Kings 2:24"
+ },
+ {
+  "id": "2ki-028",
+  "book": "2 Kings",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "How did Hazael react when Elisha wept and foretold the evil he would do to Israel?",
+  "options": [
+   "He repented",
+   "He asked, ‘Is thy servant a dog, that he should do this great thing?’",
+   "He fled",
+   "He killed the prophet"
+  ],
+  "answer": 1,
+  "explain": "Hazael protested he was incapable of such cruelty — yet the next day he smothered his king and seized Syria's throne, fulfilling the prophecy.",
+  "ref": "2 Kings 8:13"
+ },
+ {
+  "id": "2ki-029",
+  "book": "2 Kings",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What message did Isaiah first bring the sick King Hezekiah?",
+  "options": [
+   "That he would recover at once",
+   "To set his house in order, for he would die",
+   "To flee Jerusalem",
+   "To rebuild the temple"
+  ],
+  "answer": 1,
+  "explain": "Hezekiah wept and prayed, and God granted fifteen more years, confirmed by the sign of the shadow moving backward on the sundial.",
+  "ref": "2 Kings 20:1",
+  "quote": "Set thine house in order; for thou shalt die, and not live."
+ },
+ {
+  "id": "ezr-007",
+  "book": "Ezra",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "Why did Ezra proclaim a fast at the river Ahava before the journey to Jerusalem?",
+  "options": [
+   "To mourn the dead",
+   "To seek God for a safe journey, being ashamed to ask the king for soldiers",
+   "To celebrate the return",
+   "To choose leaders"
+  ],
+  "answer": 1,
+  "explain": "Having told the king that God protects those who seek him, Ezra would not ask for an armed escort; the fast sought God's protection instead.",
+  "ref": "Ezra 8:21"
+ },
+ {
+  "id": "neh-009",
+  "book": "Nehemiah",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "How did the builders of Jerusalem's wall work under threat?",
+  "options": [
+   "Only at night",
+   "Each with one hand at the work and the other holding a weapon",
+   "Behind a screen",
+   "In shifts of prayer"
+  ],
+  "answer": 1,
+  "explain": "Half stood guard while half built, and the labourers themselves worked armed — a vivid image of faith and vigilance together.",
+  "ref": "Nehemiah 4:17"
+ },
+ {
+  "id": "job-015",
+  "book": "Job",
+  "section": "Wisdom",
+  "difficulty": "hard",
+  "q": "What does Job confess about his suffering early in the book?",
+  "options": [
+   "“The LORD is just”",
+   "“The thing which I greatly feared is come upon me”",
+   "“I have sinned”",
+   "“My friends have failed me”"
+  ],
+  "answer": 1,
+  "explain": "His dread had come true — a raw admission that his prosperity had carried an undercurrent of fear, now realized in total loss.",
+  "ref": "Job 3:25",
+  "quote": "For the thing which I greatly feared is come upon me"
+ },
+ {
+  "id": "job-016",
+  "book": "Job",
+  "section": "Wisdom",
+  "difficulty": "hard",
+  "q": "What great creature does God describe to Job that “eateth grass as an ox”?",
+  "options": [
+   "Leviathan",
+   "Behemoth",
+   "The wild ass",
+   "The unicorn"
+  ],
+  "answer": 1,
+  "explain": "Behemoth, a massive land beast, is paired with the sea creature Leviathan in God's speeches — displays of creation's power beyond human mastery.",
+  "ref": "Job 40:15"
+ },
+ {
+  "id": "psa-034",
+  "book": "Psalms",
+  "section": "Wisdom",
+  "difficulty": "medium",
+  "q": "Psalm 30 says weeping may endure for a night, but what comes in the morning?",
+  "options": [
+   "Peace",
+   "Joy",
+   "Strength",
+   "Light"
+  ],
+  "answer": 1,
+  "explain": "‘His anger endureth but a moment; in his favour is life.’ The verse has comforted mourners for millennia with its promise of dawn after grief.",
+  "ref": "Psalms 30:5",
+  "quote": "weeping may endure for a night, but joy cometh in the morning"
+ },
+ {
+  "id": "psa-035",
+  "book": "Psalms",
+  "section": "Wisdom",
+  "difficulty": "hard",
+  "q": "What sacrifice does Psalm 51 say God will not despise?",
+  "options": [
+   "A bullock",
+   "A broken and a contrite heart",
+   "A tenth of one's goods",
+   "A vow fulfilled"
+  ],
+  "answer": 1,
+  "explain": "David's psalm of repentance recognizes that God desires inward brokenness over ritual offerings — the humbled heart is the true sacrifice.",
+  "ref": "Psalms 51:17",
+  "quote": "a broken and a contrite heart, O God, thou wilt not despise"
+ },
+ {
+  "id": "psa-036",
+  "book": "Psalms",
+  "section": "Wisdom",
+  "difficulty": "medium",
+  "q": "How does Psalm 137 begin, mourning the exile?",
+  "options": [
+   "“By the rivers of Babylon, there we sat down… and wept”",
+   "“Out of the depths I cry”",
+   "“How long, O LORD?”",
+   "“The LORD is my shepherd”"
+  ],
+  "answer": 0,
+  "explain": "The exiles hung their harps on the willows, unable to sing the LORD's song in a strange land — one of the most poignant laments in the Psalter.",
+  "ref": "Psalms 137:1",
+  "quote": "By the rivers of Babylon, there we sat down, yea, we wept, when we remembered Zion."
+ },
+ {
+  "id": "pro-022",
+  "book": "Proverbs",
+  "section": "Wisdom",
+  "difficulty": "medium",
+  "q": "Proverbs warns of a way that seems right to a man, but ends in what?",
+  "options": [
+   "Poverty",
+   "The ways of death",
+   "Shame",
+   "Folly"
+  ],
+  "answer": 1,
+  "explain": "A caution against trusting one's own sense of rightness — the same proverb appears twice in the book, underscoring its weight.",
+  "ref": "Proverbs 14:12",
+  "quote": "There is a way which seemeth right unto a man, but the end thereof are the ways of death."
+ },
+ {
+  "id": "pro-023",
+  "book": "Proverbs",
+  "section": "Wisdom",
+  "difficulty": "medium",
+  "q": "Why does Proverbs say not to boast of tomorrow?",
+  "options": [
+   "Because pride is sin",
+   "Because you know not what a day may bring forth",
+   "Because tomorrow never comes",
+   "Because the wise are silent"
+  ],
+  "answer": 1,
+  "explain": "A reminder of human ignorance of the future — echoed in James's warning against presuming on the days ahead.",
+  "ref": "Proverbs 27:1",
+  "quote": "Boast not thyself of to morrow; for thou knowest not what a day may bring forth."
+ },
+ {
+  "id": "pro-024",
+  "book": "Proverbs",
+  "section": "Wisdom",
+  "difficulty": "hard",
+  "q": "How does the Proverbs 31 poem contrast beauty with what endures?",
+  "options": [
+   "“Beauty fadeth, but gold remaineth”",
+   "“Favour is deceitful, and beauty is vain: but a woman that feareth the LORD shall be praised”",
+   "“Strength and honour are her clothing”",
+   "“Her children arise and call her blessed”"
+  ],
+  "answer": 1,
+  "explain": "The famous closing verse locates a woman's true praise in reverence for God rather than in charm or looks. The other lines are from the same poem.",
+  "ref": "Proverbs 31:30",
+  "quote": "Favour is deceitful, and beauty is vain: but a woman that feareth the LORD, she shall be praised."
+ },
+ {
+  "id": "ecc-008",
+  "book": "Ecclesiastes",
+  "section": "Wisdom",
+  "difficulty": "hard",
+  "q": "Ecclesiastes says a good name is better than what?",
+  "options": [
+   "Great riches",
+   "Precious ointment",
+   "Long life",
+   "Many friends"
+  ],
+  "answer": 1,
+  "explain": "‘A good name is better than precious ointment; and the day of death than the day of one's birth’ — a characteristically sober reflection on reputation and mortality.",
+  "ref": "Ecclesiastes 7:1",
+  "quote": "A good name is better than precious ointment"
+ },
+ {
+  "id": "isa-024",
+  "book": "Isaiah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "Which figure does Isaiah 14 address as “Lucifer, son of the morning,” fallen from heaven?",
+  "options": [
+   "The king of Babylon",
+   "The king of Egypt",
+   "The prince of Tyre",
+   "The Assyrian"
+  ],
+  "answer": 0,
+  "explain": "The taunt is aimed at the king of Babylon's pride; later tradition read the fallen ‘day star’ as a picture of Satan's fall, giving the name Lucifer its familiar sense.",
+  "ref": "Isaiah 14:12",
+  "quote": "How art thou fallen from heaven, O Lucifer, son of the morning!"
+ },
+ {
+  "id": "isa-025",
+  "book": "Isaiah",
+  "section": "Prophets",
+  "difficulty": "medium",
+  "q": "What does Isaiah say God's word will not do when it goes forth?",
+  "options": [
+   "Return unto him void",
+   "Be forgotten",
+   "Fail the humble",
+   "Trouble the nations"
+  ],
+  "answer": 0,
+  "explain": "Like rain that waters the earth and brings forth growth, God's word accomplishes his purpose — it will not return empty.",
+  "ref": "Isaiah 55:11",
+  "quote": "it shall not return unto me void"
+ },
+ {
+  "id": "jer-014",
+  "book": "Jeremiah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What proverb of ingrained habit does Jeremiah use for a people accustomed to evil?",
+  "options": [
+   "“A leopard cannot change its spots”",
+   "“Can the Ethiopian change his skin, or the leopard his spots?”",
+   "“The dog returns to its vomit”",
+   "“As is the mother, so is the daughter”"
+  ],
+  "answer": 1,
+  "explain": "The rhetorical question underscores how deeply sin had become second nature to Judah — the origin of the familiar saying about a leopard's spots.",
+  "ref": "Jeremiah 13:23",
+  "quote": "Can the Ethiopian change his skin, or the leopard his spots?"
+ },
+ {
+  "id": "jer-015",
+  "book": "Jeremiah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "Into what was Jeremiah lowered, sinking in the mire, for his unpopular prophecies?",
+  "options": [
+   "A well of the palace",
+   "A muddy dungeon or cistern",
+   "A pit of lions",
+   "A prison ship"
+  ],
+  "answer": 1,
+  "explain": "Cast into a miry cistern to silence him, the prophet was rescued by an Ethiopian official, Ebed-melech, who pulled him out with rags and cords.",
+  "ref": "Jeremiah 38:6"
+ },
+ {
+  "id": "eze-011",
+  "book": "Ezekiel",
+  "section": "Prophets",
+  "difficulty": "medium",
+  "q": "By what title does God repeatedly address Ezekiel?",
+  "options": [
+   "“My servant”",
+   "“Son of man”",
+   "“Man of God”",
+   "“Watchman of Zion”"
+  ],
+  "answer": 1,
+  "explain": "‘Son of man’ — emphasizing Ezekiel's mortal humanity before God's overwhelming glory — recurs scores of times through the book.",
+  "ref": "Ezekiel 2:1",
+  "quote": "Son of man, stand upon thy feet"
+ },
+ {
+  "id": "eze-012",
+  "book": "Ezekiel",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What did God tell Ezekiel to portray on a tile as a sign?",
+  "options": [
+   "A vine",
+   "The city of Jerusalem under siege",
+   "A wheel",
+   "A river"
+  ],
+  "answer": 1,
+  "explain": "Ezekiel enacted the coming siege in a series of strange sign-acts — the tile, lying on his side, and rationed food — dramatizing his message to the exiles.",
+  "ref": "Ezekiel 4:1"
+ },
+ {
+  "id": "dan-019",
+  "book": "Daniel",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What did the ram with two horns represent in Daniel's vision?",
+  "options": [
+   "Babylon",
+   "The kings of Media and Persia",
+   "Greece",
+   "Egypt"
+  ],
+  "answer": 1,
+  "explain": "The angel interprets the ram as Medo-Persia, and the he-goat that overthrows it as Greece — remarkably specific about the empires to come.",
+  "ref": "Daniel 8:3"
+ },
+ {
+  "id": "hos-007",
+  "book": "Hosea",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What was Hosea told to do again, picturing God's love for wayward Israel?",
+  "options": [
+   "Rebuild the altar",
+   "Love an adulterous woman, as the LORD loves Israel though they turn to other gods",
+   "Fast forty days",
+   "Break his marriage"
+  ],
+  "answer": 1,
+  "explain": "Hosea buys back his unfaithful wife — a living parable of God redeeming a people who had gone after other gods.",
+  "ref": "Hosea 3:1"
+ },
+ {
+  "id": "jol-005",
+  "book": "Joel",
+  "section": "Prophets",
+  "difficulty": "medium",
+  "q": "What does Joel call for, saying “rend your heart, and not your…”?",
+  "options": [
+   "Robes",
+   "Garments",
+   "Vessels",
+   "Crowns"
+  ],
+  "answer": 1,
+  "explain": "True repentance is inward, not the outward show of torn clothing — for God is gracious, merciful, and slow to anger.",
+  "ref": "Joel 2:13",
+  "quote": "And rend your heart, and not your garments"
+ },
+ {
+  "id": "amo-008",
+  "book": "Amos",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What refrain introduces Amos's oracles against the nations?",
+  "options": [
+   "“Thus saith the LORD”",
+   "“For three transgressions… and for four, I will not turn away the punishment”",
+   "“Woe unto them”",
+   "“The day of the LORD”"
+  ],
+  "answer": 1,
+  "explain": "The repeated formula builds through the surrounding nations before turning, pointedly, on Israel itself — the sermon's rhetorical trap.",
+  "ref": "Amos 2:6",
+  "quote": "For three transgressions of Israel, and for four, I will not turn away the punishment thereof"
+ },
+ {
+  "id": "zec-008",
+  "book": "Zechariah",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "Upon whom does Zechariah say the people will look, whom they have pierced, and mourn?",
+  "options": [
+   "A fallen king",
+   "One whom they pierced",
+   "A slain prophet",
+   "The high priest"
+  ],
+  "answer": 1,
+  "explain": "A pouring out of grace and mourning for a pierced one — quoted in John's Gospel at the crucifixion and again in Revelation.",
+  "ref": "Zechariah 12:10",
+  "quote": "they shall look upon me whom they have pierced"
+ },
+ {
+  "id": "mal-007",
+  "book": "Malachi",
+  "section": "Prophets",
+  "difficulty": "hard",
+  "q": "What does Malachi say the priest's lips should keep, being the messenger of the LORD?",
+  "options": [
+   "Silence",
+   "Knowledge",
+   "Praise",
+   "Secrets"
+  ],
+  "answer": 1,
+  "explain": "Priests were to guard and teach true knowledge of the law; Malachi rebukes those who had corrupted it and caused many to stumble.",
+  "ref": "Malachi 2:7",
+  "quote": "the priest’s lips should keep knowledge"
+ },
+ {
+  "id": "gen-094",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "From which of Lot's sons did the Moabites descend?",
+  "options": [
+   "His firstborn daughter's son, Moab",
+   "Ammon",
+   "Esau",
+   "Ishmael"
+  ],
+  "answer": 0,
+  "explain": "Genesis traces both Moab and Ammon to Lot's daughters after the destruction of Sodom — peoples who would later clash with Israel.",
+  "ref": "Genesis 19:37"
+ },
+ {
+  "id": "gen-095",
+  "book": "Genesis",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "Who is named as the father of those who handle the harp and organ?",
+  "options": [
+   "Jabal",
+   "Jubal",
+   "Tubal-cain",
+   "Enoch"
+  ],
+  "answer": 1,
+  "explain": "In Cain's line, Jubal is the ancestor of musicians, his brother Jabal of herdsmen, and Tubal-cain a forger of metal — an early note on the origins of the arts and crafts.",
+  "ref": "Genesis 4:21"
+ },
+ {
+  "id": "exo-066",
+  "book": "Exodus",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What did Zipporah do to save Moses on the journey back to Egypt?",
+  "options": [
+   "She hid him",
+   "She circumcised their son with a sharp stone",
+   "She prayed all night",
+   "She sent him ahead"
+  ],
+  "answer": 1,
+  "explain": "A cryptic, tense episode: God sought to kill Moses, and Zipporah's swift circumcision of their son turned the danger aside — underscoring the covenant's seriousness.",
+  "ref": "Exodus 4:25"
+ },
+ {
+  "id": "lev-022",
+  "book": "Leviticus",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What was the penalty in Leviticus for blaspheming the name of the LORD?",
+  "options": [
+   "Exile",
+   "Death by stoning",
+   "A fine",
+   "Seven years of service"
+  ],
+  "answer": 1,
+  "explain": "The law was given after a specific case of blasphemy in the camp — a measure of how gravely the sanctity of God's name was regarded.",
+  "ref": "Leviticus 24:16"
+ },
+ {
+  "id": "num-030",
+  "book": "Numbers",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "Which figure, hired to curse Israel, was later killed among the Midianites?",
+  "options": [
+   "Balak",
+   "Balaam",
+   "Zur",
+   "Cozbi"
+  ],
+  "answer": 1,
+  "explain": "Balaam, who could not curse Israel but counselled leading them into sin, died by the sword in Israel's campaign against Midian.",
+  "ref": "Numbers 31:8"
+ },
+ {
+  "id": "deu-024",
+  "book": "Deuteronomy",
+  "section": "Torah",
+  "difficulty": "hard",
+  "q": "What does Deuteronomy 21 say about a body hanged on a tree?",
+  "options": [
+   "It must burn",
+   "It must not remain overnight, for one hanged is accursed of God",
+   "It must be left for beasts",
+   "It must be buried in the temple"
+  ],
+  "answer": 1,
+  "explain": "The law required same-day burial. Paul draws on this verse when writing that Christ became a curse for us, being hanged on a tree.",
+  "ref": "Deuteronomy 21:23"
+ },
+ {
+  "id": "2ki-030",
+  "book": "2 Kings",
+  "section": "Historical",
+  "difficulty": "hard",
+  "q": "What parable did Jehoash of Israel send to the proud Amaziah of Judah?",
+  "options": [
+   "The vineyard",
+   "The thistle that asked the cedar for his daughter, and was trodden down",
+   "The two eagles",
+   "The plumbline"
+  ],
+  "answer": 1,
+  "explain": "A dismissive fable warning Amaziah not to provoke a stronger power. Amaziah ignored it and was defeated, and Jerusalem's wall was broken down.",
+  "ref": "2 Kings 14:9"
  }
 ];
